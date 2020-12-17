@@ -1,0 +1,26 @@
+.mainContainer {
+  width: 100%;
+  height: 70px;
+}
+.logoContainer {
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.logo {
+  position: static;
+}
+.navMenuContainer img {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navMenuContainer {
+    float: right;
+    margin: 15px;
+    margin-top: 18px;
+  }
+  .navMenuContainer img {
+    display: block;
+  }
+}
