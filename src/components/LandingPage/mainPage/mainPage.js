@@ -7,7 +7,7 @@ const MainPage = () => {
     return(
     <div className={classes.majorContainer} >
         <div><Intro /></div>
-        <div><AboutUs /></div>
+        <div><AboutUs/></div>
         
         
         

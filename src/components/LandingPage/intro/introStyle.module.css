@@ -1,3 +1,37 @@
-.main {
-  background-color: #e5e5e5;
+.HeadingDesign {
+  text-align: left;
+  margin: 20px;
+}
+.backgroundText {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0px;
+  opacity: 0.2;
+  line-height: 63px;
+}
+.frontText {
+  position: absolute;
+  color: #747474;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 19px;
+}
+.buttonContainer {
+  margin: 20px;
+  margin-left: 0px;
+}
+.workIntro {
+  margin-top: 20px;
+}
+.workIntro p {
+  color: #747474;
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 26px;
+  margin-right: 26px;
+  text-align: justify;
+}
+.ManImageContainer {
+  margin-bottom: 62px;
 }
