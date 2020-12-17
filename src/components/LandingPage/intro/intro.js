@@ -20,7 +20,7 @@ const Intro = () => {
                     <a href="#abt" className="button">Know More</a>
                 </div>
             </div>
-            <div className={classes.buildingImageConatiner}>
+            <div className={classes.buildingImageContainer}>
                 <img src={Building}/>
             </div>
             <div className={classes.workIntro}>
@@ -43,6 +43,7 @@ const Intro = () => {
             <div className={classes.ManImageContainer}>
                 <img src={man}/>
             </div>
+            <div></div>
         </div>
     )
 };

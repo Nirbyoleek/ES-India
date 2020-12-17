@@ -35,3 +35,6 @@
 .ManImageContainer {
   margin-bottom: 62px;
 }
+.buildingImageContainer img {
+  width: 100%;
+}
