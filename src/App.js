@@ -4,8 +4,7 @@ import Test from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to ES India's Landing page</h1>
-      <img src={Test}/>
+      <h1>Es India</h1>
     </div>
   );
 }
