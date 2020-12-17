@@ -1,11 +1,10 @@
-import './App.css';
-import Test from './logo.svg';
-
+import "./App.css";
+import AboutUs from "./components/LandingPage/AboutUs/AboutUs";
 function App() {
   return (
     <div className="App">
       <h1>Welcome to ES India's Landing page</h1>
-      <img src={Test}/>
+      <AboutUs />
     </div>
   );
 }
