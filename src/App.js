@@ -1,10 +1,10 @@
 import "./App.css";
-import AboutUs from "./components/LandingPage/AboutUs/AboutUs";
+import MainPage from "./components/LandingPage/mainPage/mainPage";
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to ES India's Landing page</h1>
-      <AboutUs />
+      <MainPage />
+      
     </div>
   );
 }
