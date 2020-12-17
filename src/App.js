@@ -1,9 +1,10 @@
 import './App.css';
+import Intro from './components/landing/intro/intro.js'
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to ES India's Landing page</h1>
+      <Intro />
     </div>
   );
 }

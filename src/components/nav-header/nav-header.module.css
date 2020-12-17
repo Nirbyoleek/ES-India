@@ -1,0 +1,15 @@
+.mainContainer {
+  width: 100%;
+}
+.logoContainer {
+  float: left;
+  margin: 15px;
+}
+.logo {
+  position: static;
+}
+.navMenuContainer {
+  float: right;
+  margin: 15px;
+  margin-top: 18px;
+}
