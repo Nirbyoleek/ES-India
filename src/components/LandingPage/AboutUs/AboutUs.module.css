@@ -11,9 +11,9 @@
     margin: 60px;
   }
   .Image {
-    /* z-index: -1;*/
+    /* z-index: -1;
     position: relative;
-    top: -200px;
-    /*margin-top: -200px;*/
+    top: -200px;*/
+    margin-top: -200px;
   }
 }
