@@ -3,6 +3,7 @@ import Test from "../../../assets/Test.svg";
 import classes from "./AboutUs.module.css";
 import { Button, Media } from "reactstrap";
 import Carousel from "./Carousel";
+import Spec from "../Specializations/Specializations";
 
 const AboutUs = () => {
   return (
@@ -23,6 +24,7 @@ const AboutUs = () => {
       <div className={classes.Carousel}>
         <Carousel />
       </div>
+      <Spec />
     </div>
   );
 };
