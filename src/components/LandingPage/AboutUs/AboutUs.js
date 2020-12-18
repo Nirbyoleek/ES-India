@@ -3,12 +3,13 @@ import Test from "../../../assets/Test.svg";
 import classes from "./AboutUs.module.css";
 import { Button, Media } from "reactstrap";
 import Carousel from "./Carousel";
-import Spec from "../Specializations/Specializations";
 
 const AboutUs = () => {
   return (
     <div className={classes.AboutUs}>
-      <center><h2>About Us</h2></center>
+      <center>
+        <h2>About Us</h2>
+      </center>
       <Media className={classes.Info}>
         We are a young firm of Engineers and Architects with a vast and
         diversified experience in the areas of Designing, Planning and
@@ -24,7 +25,6 @@ const AboutUs = () => {
       <div className={classes.Carousel}>
         <Carousel />
       </div>
-      <Spec />
     </div>
   );
 };
