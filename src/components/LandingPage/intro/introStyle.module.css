@@ -1,3 +1,207 @@
-.main {
-  background-color: #e5e5e5;
+.introPart1 {
+  background-color: #f2f2f2;
+}
+.introPart2 {
+  background-color: #f2f2f2;
+  padding-bottom: 150px;
+}
+.introPart3 {
+  margin-top: -150px;
+}
+.HeadingDesign {
+  text-align: left;
+  padding: 20px;
+}
+.backgroundText {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  opacity: 0.3;
+  margin: 0px;
+  line-height: 63px;
+  -webkit-text-stroke: 1px #747474;
+  -webkit-text-fill-color: #f2f2f2;
+}
+.frontText {
+  position: absolute;
+  color: #747474;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: -170px;
+}
+.buttonContainer {
+  margin: 20px;
+  margin-left: 0px;
+}
+.buttonContainer a {
+  font-family: "Times New Roman";
+}
+.workIntro {
+  padding-top: 20px;
+}
+.workIntro p {
+  color: #747474;
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 26px;
+  margin-right: 26px;
+  text-align: justify;
+}
+.ManImageContainer {
+  margin-bottom: 62px;
+}
+.buildingImageContainer img {
+  width: 100%;
+}
+.carousel {
+  margin-left: 38px;
+  margin-right: 38px;
+}
+.introLastText {
+  text-align: left;
+}
+.introLastText p {
+  display: inline-block;
+  margin-top: 31px;
+  margin-bottom: 27px;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 26px;
+  color: #444444;
+  font-family: "Times New Roman";
+  font-weight: 400;
+}
+.introLastText div {
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 230px;
+  width: 30%;
+  background-color: #444444;
+  height: 3px;
+}
+
+@media screen and (min-width: 850px) {
+  .introPart1 {
+    padding-top: 100px;
+    height: 580px;
+    overflow: hidden;
+  }
+  .introPart2 {
+    height: 800px;
+    padding-bottom: 200px;
+  }
+  .introPart3 {
+    margin-top: -220px;
+  }
+  .HeadingDesign {
+    float: left;
+    margin-left: 40px;
+  }
+  .frontText {
+    font-size: 52px;
+    line-height: 78px;
+    margin-top: -250px;
+  }
+  .backgroundText {
+    font-size: 62px;
+    line-height: 93px;
+  }
+  .buttonContainer {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .buildingImageContainer {
+    float: right;
+    width: 40%;
+    overflow: hidden;
+  }
+  .buildingImageContainer img {
+    width: 700px;
+  }
+  .workIntro {
+    float: right;
+    margin-top: 50px;
+    margin-right: 5%;
+    width: 40%;
+  }
+  .workIntro p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .ManImageContainer {
+    float: left;
+    width: 50%;
+    padding-top: 100px;
+  }
+  .ManImageContainer img {
+    width: 60%;
+  }
+  .ManImageContainer div {
+    position: absolute;
+    margin-top: -23%;
+    margin-left: 30%;
+    width: 20%;
+    background-color: #727272;
+    height: 3px;
+  }
+  .carousel {
+    margin-left: 173px;
+    margin-right: 173px;
+  }
+  .introLastText {
+    margin-left: 150px;
+  }
+  .introLastText p {
+    font-size: 38px;
+  }
+  .introLastText div {
+    margin-left: 353px;
+    margin-top: -55px;
+    width: 23%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .workIntro p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+  .introLastText p {
+    font-size: 38px;
+  }
+  .introLastText div {
+    margin-left: 353px;
+    margin-top: -55px;
+    width: 26%;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .introPart2 {
+    height: 950px;
+  }
+  .buildingImageContainer {
+    width: 58%;
+  }
+  .buildingImageContainer img {
+    width: 100%;
+  }
+  .workIntro p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+  }
+  .introLastText p {
+    font-size: 48px;
+  }
+  .introLastText div {
+    margin-left: 403px;
+    margin-top: -60px;
+    width: 40%;
+  }
 }
