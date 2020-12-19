@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from '../../assets/Logo.svg';
-import Bar from '../../assets/Hamburger-1.png';
+import Logo from "../../assets/Logo.svg";
+import Bar from "../../assets/Hamburger-1.png";
+
 import classes from "./nav-header.module.css";
 
 const Header = () => {

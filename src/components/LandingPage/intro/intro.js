@@ -1,5 +1,5 @@
-import React from 'react';
-import Header from '../../nav-header/nav-header.js';
+import React from "react";
+import Header from "../../nav-header/nav-header";
 import classes from "./introStyle.module.css";
 import "./intro.css";
 import Building from '../../../assets/BuildingForIntro.svg';
