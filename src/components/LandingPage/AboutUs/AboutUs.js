@@ -7,7 +7,9 @@ import Carousel from "./Carousel";
 const AboutUs = () => {
   return (
     <div className={classes.AboutUs}>
-      <center><h2>About Us</h2></center>
+      <center>
+        <h2>About Us</h2>
+      </center>
       <Media className={classes.Info}>
         We are a young firm of Engineers and Architects with a vast and
         diversified experience in the areas of Designing, Planning and
