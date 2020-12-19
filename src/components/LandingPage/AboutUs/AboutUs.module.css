@@ -1,7 +1,7 @@
-.AboutUs {
-  background-color: #e5e5e5;
-}
 @media only screen and (max-width: 500px) {
+  .AboutUs {
+    background-color: #e5e5e5;
+  }
   .Info {
     margin: 50px;
     text-align: justify;
@@ -11,9 +11,6 @@
     margin: 60px;
   }
   .Image {
-    /* z-index: -1;
-    position: relative;
-    top: -200px;*/
     margin-top: -200px;
   }
 }
