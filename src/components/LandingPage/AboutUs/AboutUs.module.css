@@ -1,5 +1,6 @@
 .AboutUs {
   background-color: #e5e5e5;
+  padding-top: 40px;
 }
 @media only screen and (max-width: 500px) {
   .Info {
