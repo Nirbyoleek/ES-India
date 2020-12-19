@@ -1,10 +1,9 @@
-import './App.css';
-import Test from './logo.svg';
-
+import "./App.css";
+import MainPage from "./components/LandingPage/mainPage/mainPage";
 function App() {
   return (
     <div className="App">
-      <h1>Es India</h1>
+      <MainPage />      
     </div>
   );
 }
