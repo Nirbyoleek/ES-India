@@ -5,6 +5,7 @@ import classes from "./mainPage.module.css";
 import Consultancy from "../Consultancy/Consultancy";
 import Spec from "../Specializations/Specializations";
 import OurClients from "../OurClients/OurClients";
+import Work from "../Work/Work";
 
 const MainPage = () => {
   return (
@@ -14,6 +15,9 @@ const MainPage = () => {
       </div>
       <div>
         <AboutUs />
+      </div>
+      <div>
+        <Work />
       </div>
       <div>
         <Spec />
