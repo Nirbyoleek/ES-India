@@ -1,11 +1,19 @@
 * {
   font-family: "Poppins";
   font-weight: 300;
+  background-color: #e5e5e5;
 }
 h2 {
   font-family: "Playfair Display";
+  font-weight: 600;
+  margin-bottom: 50px;
+  background-color: #e5e5e5;
 }
 h3,
 h5 {
   font-family: "Playfair Display";
+  font-weight: 500;
+}
+p {
+  font-weight: 500;
 }
