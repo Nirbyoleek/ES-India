@@ -1,0 +1,14 @@
+@media only screen and (max-width: 500px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Section {
+    display: flex;
+    width: 70%;
+    margin: 30px 50px;
+  }
+  .Content {
+    margin: 20px;
+  }
+}
