@@ -1,9 +1,10 @@
 * {
   font-family: "Poppins";
-  font-weight: 300;
+  scroll-behavior: smooth;
 }
 h2 {
   font-family: "Playfair Display";
+  padding-top: 18px;
 }
 h3,
 h5 {

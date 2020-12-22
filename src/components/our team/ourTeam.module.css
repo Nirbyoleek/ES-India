@@ -1,0 +1,94 @@
+* {
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+.majorcontainer {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+.majorcontainer h2 {
+  font-weight: 400;
+  padding-top: 0px;
+  color: #444444;
+}
+
+.Members tr td {
+  padding-top: 37px;
+}
+.Members tr td img {
+  border-radius: 100%;
+}
+.imgAdjustR {
+  padding-right: 41px;
+}
+.imgAdjustL {
+  padding-left: 41px;
+}
+.name {
+  font-family: "Playfair Display";
+  margin: 14px 0px;
+}
+.name b {
+  font-family: "playfair Display";
+}
+.post {
+  width: 117px;
+  font-size: 14px;
+  color: #444444;
+}
+.otherMembers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.otherMembers div {
+  display: inline-flex;
+  flex: 0 40%;
+  flex-grow: 1;
+  margin: 5px 5%;
+  justify-content: center;
+}
+.otherMembers div p {
+  width: 100%;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "playfair display";
+  margin: 0px;
+}
+.otherMembers div p b {
+  font-family: "playfair display";
+}
+
+@media screen and (min-width: 850px) {
+  .majorcontainer h2 {
+    font-weight: 800;
+    font-size: 48px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .Members tr td img {
+    width: 320px;
+  }
+  .imgAdjustR {
+    padding-right: 130px;
+  }
+  .imgAdjustL {
+    padding-left: 130px;
+  }
+  .name {
+    font-size: 38px;
+  }
+  .post {
+    font-size: 28px;
+    width: 312px;
+    font-weight: 300;
+  }
+  .otherMembers {
+    padding-bottom: 100px;
+  }
+  .otherMembers div p {
+    font-size: 34px;
+    line-height: 100px;
+  }
+}
