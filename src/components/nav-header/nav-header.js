@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/Logo.svg";
 import Bar from "../../assets/Hamburger-1.png";
-
+import {Link} from "react-router-dom";
 import classes from "./nav-header.module.css";
 
 const Header = () => {
@@ -13,11 +13,11 @@ const Header = () => {
             <div className={classes.navMenuContainer}>
                 <img src={Bar} />
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Specialisations</a></li>
-                    <li><a href="#">Works</a></li>
-                    <li><a href="#">Our team</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><Link to="/">About us</Link></li>
+                    <li><Link href="#specs">Specialisations</Link></li>
+                    <li><Link href="#">Works</Link></li>
+                    <li><Link to="/Ourteam">Our team</Link></li>
+                    <li><Link to="/ContactUs">Contact us</Link></li>
                 </ul>
             </div>
         </div>

@@ -72,15 +72,18 @@ h2 {
   .footer p {
     margin-bottom: 0px;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 400;
+    color: #444444;
   }
   .right {
     float: right;
     text-align: right;
+    margin-right: 10px;
   }
   .left {
     float: left;
     text-align: left;
     margin-top: 20px;
+    margin-left: 10px;
   }
 }
