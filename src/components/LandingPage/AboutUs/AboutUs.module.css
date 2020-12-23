@@ -1,6 +1,6 @@
 @media only screen and (max-width: 500px) {
   .AboutUs {
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
   }
   .Info {
     margin: 50px;
@@ -8,10 +8,15 @@
     line-height: 29px;
   }
   .Carousel {
-    margin: 60px;
+    margin: 20px;
   }
   .Image {
     margin-top: -200px;
     width: 100%;
+  }
+  .Work {
+    margin: 80px;
+    background-color: #fff;
+    width: 70%;
   }
 }

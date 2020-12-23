@@ -2,7 +2,6 @@ import React from "react";
 import Test from "../../../assets/Test.svg";
 import classes from "./AboutUs.module.css";
 import { Button, Media } from "reactstrap";
-import Carousel from "./Carousel";
 
 const AboutUs = () => {
   return (
@@ -22,9 +21,6 @@ const AboutUs = () => {
       </Media>
 
       <img className={classes.Image} src={Test} alt="" />
-      <div className={classes.Carousel}>
-        <Carousel />
-      </div>
     </div>
   );
 };
