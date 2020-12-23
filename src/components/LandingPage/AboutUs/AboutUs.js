@@ -5,7 +5,7 @@ import { Button, Media } from "reactstrap";
 
 const AboutUs = () => {
   return (
-    <div className={classes.AboutUs}>
+    <div className={classes.AboutUs} id="abt">
       <center>
         <h2>About Us</h2>
       </center>
