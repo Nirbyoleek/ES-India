@@ -7,8 +7,8 @@ import client3 from "../../../assets/client3.svg";
 const OurClients = () => {
   return (
     <div>
-      <h2>Our Clients</h2>
       <div className={classes.Container}>
+        <h2>Our Clients</h2>
         <div className={classes.Section}>
           <div className={classes.Content}>
             <img src={client1} alt="" />

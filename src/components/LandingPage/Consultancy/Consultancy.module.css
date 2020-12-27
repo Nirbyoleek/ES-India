@@ -2,7 +2,7 @@
   .Container {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     background-color: #e5e5e5;
   }
 
@@ -13,5 +13,23 @@
   }
   .Content {
     margin: 10px 50px;
+  }
+  .headingStyle {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 15px;
+  }
+  .headingLine {
+    display: inline-block;
+    flex-grow: 1;
+    height: 4px;
+    background-color: #747474;
+    margin-top: 18px;
+    margin-right: 20px;
   }
 }
