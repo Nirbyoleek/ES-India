@@ -57,4 +57,14 @@
     color: black;
     transition-duration: 0.4s;
   }
+  .navMenuContainer ul li Link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #747474;
+  }
+  .navMenuContainer ul li Link:hover {
+    color: black;
+    transition-duration: 0.4s;
+  }
 }

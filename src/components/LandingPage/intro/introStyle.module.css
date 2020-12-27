@@ -37,7 +37,8 @@
   margin-left: 0px;
 }
 .buttonContainer a {
-  font-family: "Times New Roman";
+  font-family: "playfair display";
+  font-weight: 400;
 }
 .workIntro {
   padding-top: 20px;
@@ -45,6 +46,7 @@
 .workIntro p {
   color: #747474;
   font-size: 15px;
+  font-weight: 500;
   line-height: 30px;
   margin-left: 26px;
   margin-right: 26px;
@@ -62,6 +64,7 @@
 }
 .introLastText {
   text-align: left;
+  display: flex;
 }
 .introLastText p {
   display: inline-block;
@@ -71,16 +74,17 @@
   margin-right: 10px;
   font-size: 26px;
   color: #444444;
-  font-family: "Times New Roman";
+  font-family: "Playfair Display";
   font-weight: 400;
 }
 .introLastText div {
-  position: absolute;
-  margin-top: -45px;
-  margin-left: 230px;
-  width: 30%;
+  position: static;
+  display: inline-block;
+  margin-top: 49px;
+  margin-right: 20px;
+  flex-grow: 1;
   background-color: #444444;
-  height: 3px;
+  height: 2px;
 }
 
 @media screen and (min-width: 850px) {
@@ -159,9 +163,9 @@
     font-size: 38px;
   }
   .introLastText div {
-    margin-left: 353px;
-    margin-top: -55px;
-    width: 23%;
+    flex-grow: 1;
+    margin-right: 173px;
+    margin-top: 60px;
   }
 }
 
@@ -173,11 +177,6 @@
   }
   .introLastText p {
     font-size: 38px;
-  }
-  .introLastText div {
-    margin-left: 353px;
-    margin-top: -55px;
-    width: 26%;
   }
 }
 
@@ -198,10 +197,5 @@
   }
   .introLastText p {
     font-size: 48px;
-  }
-  .introLastText div {
-    margin-left: 403px;
-    margin-top: -60px;
-    width: 40%;
   }
 }
