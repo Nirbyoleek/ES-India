@@ -8,7 +8,11 @@ const Spec = () => {
   return (
     <div>
       <div className={classes.Container}>
-        <h2>Structures</h2>
+        <h2>Our Specializations</h2>
+        <div className={classes.headingStyle}>
+          <p>Types Of Structures</p>
+          <div className={classes.headingLine}></div>
+        </div>
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
             <img src={build1} alt="" />
