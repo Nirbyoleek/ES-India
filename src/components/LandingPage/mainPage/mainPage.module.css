@@ -1,0 +1,16 @@
+* {
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+h2 {
+  font-family: "Playfair Display";
+  padding-top: 18px;
+  font-weight: 300;
+  background-color: #e5e5e5;
+}
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  margin-bottom: 50px;
+  background-color: #e5e5e5;
+}

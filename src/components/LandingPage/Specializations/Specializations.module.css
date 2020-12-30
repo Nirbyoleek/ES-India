@@ -1,0 +1,51 @@
+@media only screen and (max-width: 500px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    padding: 40px 0;
+    padding-left: 25px;
+  }
+  .Section {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: 90%;
+  }
+  .leftSec1 {
+    width: 20%;
+  }
+  .rightSec1 {
+    width: 70%;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+  p {
+    margin-top: -7px;
+    color: #747474;
+  }
+  .leftSec2 {
+    width: 70%;
+    margin-right: -20px;
+    margin-top: 10px;
+  }
+  .rightSec2 {
+    width: 20%;
+  }
+  .headingStyle {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .headingLine {
+    display: inline-block;
+    flex-grow: 1;
+    height: 4px;
+    background-color: #747474;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+}
