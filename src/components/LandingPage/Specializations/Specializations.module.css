@@ -4,7 +4,35 @@
     flex-direction: column;
     background-color: #e5e5e5;
     padding: 40px 0;
-    padding-left: 25px;
+    padding-left: 15px;
+  }
+  .rightSec1 h5{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 40%;
+  }
+  .rightSec1 p{
+    text-align: left;
+    margin-left: 40%;
+  }
+  .leftSec2 h5{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: left;
+    margin-right: 10%;
+  }
+  .leftSec1 img{
+    width: 120px;
+  }
+  .rightSec2 img{
+    width: 120px;
+  }
+  .leftSec2 p{
+    text-align: left;
+    margin-right: 30%;
   }
   .Section {
     display: flex;

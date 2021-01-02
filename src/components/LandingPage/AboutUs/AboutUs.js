@@ -1,7 +1,7 @@
 import React from "react";
 import Test from "../../../assets/Test.svg";
 import classes from "./AboutUs.module.css";
-import { Button, Media } from "reactstrap";
+import { Media } from "reactstrap";
 
 const AboutUs = () => {
   return (

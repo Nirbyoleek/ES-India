@@ -8,10 +8,10 @@ const Header = () => {
     return(
         <div className={classes.mainContainer}>
             <div className={classes.logoContainer}>
-                <img src={Logo} className={classes.logo} />
+                <img alt="logo" src={Logo} className={classes.logo} />
             </div>
             <div className={classes.navMenuContainer}>
-                <img src={Bar} />
+                <img alt="bar"  src={Bar} />
                 <ul>
                     <li><Link to="/">About us</Link></li>
                     <li><Link href="#specs">Specialisations</Link></li>

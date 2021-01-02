@@ -2,8 +2,11 @@
   .AboutUs {
     background-color: #e5e5e5;
   }
+  .AboutUs h2{
+    padding-top: 10%;
+  }
   .Info {
-    margin: 50px;
+    margin:20px 50px;
     text-align: justify;
     line-height: 29px;
   }
