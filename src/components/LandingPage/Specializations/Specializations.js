@@ -4,14 +4,21 @@ import build2 from "../../../assets/build2.svg";
 import build3 from "../../../assets/build3.svg";
 import classes from "./Specializations.module.css";
 
-var names_right = ["Highways","Water Retaining Structures","Airports","Heritage Structures"]
-var names_left = ["Buildings","Urban Infrastructure","Bridges","Jetties"]
+var names_right = [
+  "Highways",
+  "Water Retaining Structures",
+  "Airports",
+  "Heritage Structures",
+];
+var names_left = ["Buildings", "Urban Infrastructure", "Bridges", "Jetties"];
 
 const Spec = () => {
   return (
     <div>
       <div className={classes.Container}>
-        <h2>Our Specializations</h2>
+        <div className={classes.Specialization}>
+          <h2>Our Specializations</h2>
+        </div>
         <div className={classes.headingStyle}>
           <p>Types Of Structures</p>
           <div className={classes.headingLine}></div>
@@ -45,7 +52,7 @@ const Spec = () => {
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec2}>
-            <h5>Water Retaining Structures</h5>
+            <h5>Water Structures</h5>
             <p>Name</p>
           </div>
           <div className={classes.rightSec2}>
