@@ -34,7 +34,7 @@ const Intro = () => {
           </div>
         </div>
         <div className={classes.buildingImageContainer}>
-          <img alt="building_img" src={Building} />
+          <img alt="building_img"  src={Building} />
         </div>
       </div>
       <div className={classes.introPart2}>
@@ -53,7 +53,7 @@ const Intro = () => {
           </p>
         </div>
         <div className={classes.ManImageContainer}>
-          <img alt="building_img" src={man} />
+          <img style={{"marginTop": "35px"}} alt="building_img" src={man} />
           <div></div>
         </div>
       </div>
