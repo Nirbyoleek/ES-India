@@ -4,7 +4,7 @@ import classes from "./introStyle.module.css";
 import "./intro.css";
 import Building from "../../../assets/BuildingForIntro.svg";
 import man from "../../../assets/Image2Intro.svg";
-import line from "../../../assets/line.svg";
+//import line from "../../../assets/line.svg";
 import Carousel from "./carousel";
 
 const Intro = () => {
@@ -34,7 +34,7 @@ const Intro = () => {
           </div>
         </div>
         <div className={classes.buildingImageContainer}>
-          <img src={Building} />
+          <img alt="building_img" src={Building} />
         </div>
       </div>
       <div className={classes.introPart2}>
@@ -53,7 +53,7 @@ const Intro = () => {
           </p>
         </div>
         <div className={classes.ManImageContainer}>
-          <img src={man} />
+          <img alt="building_img" src={man} />
           <div></div>
         </div>
       </div>
