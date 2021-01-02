@@ -115,7 +115,7 @@
   }
   .buttonContainer {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
   }
   .buildingImageContainer {
     float: right;
@@ -139,7 +139,7 @@
   .ManImageContainer {
     float: left;
     width: 50%;
-    padding-top: 100px;
+    padding-top: 20px;
   }
   .ManImageContainer img {
     width: 60%;
@@ -152,20 +152,28 @@
     background-color: #727272;
     height: 3px;
   }
+  /*
   .carousel {
     margin-left: 173px;
     margin-right: 173px;
+  }*/
+  .carousel {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+    width: 80%;
+    overflow: hidden;
   }
   .introLastText {
-    margin-left: 150px;
+    margin-left: 10%;
   }
   .introLastText p {
     font-size: 38px;
   }
   .introLastText div {
     flex-grow: 1;
-    margin-right: 173px;
-    margin-top: 60px;
+    margin-right: 11.5%;
+    margin-top: 65px;
   }
 }
 
@@ -178,11 +186,15 @@
   .introLastText p {
     font-size: 38px;
   }
+  .introLastText div {
+    margin-top: 64px;
+    margin-right: 11%;
+  }
 }
 
 @media screen and (min-width: 1050px) {
   .introPart2 {
-    height: 950px;
+    height: 800px;
   }
   .buildingImageContainer {
     width: 58%;
@@ -190,12 +202,11 @@
   .buildingImageContainer img {
     width: 100%;
   }
-  .workIntro p {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 41px;
-  }
   .introLastText p {
     font-size: 48px;
+  }
+  .introLastText div {
+    margin-top: 71px;
+    margin-right: 11%;
   }
 }

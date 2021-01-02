@@ -15,14 +15,18 @@ const ourTeam = ()=>{
                     </tr>
                     <tr>
                         <td className={classes.imgAdjustR}>
-                            <img alt="img" src={MDimg} />
+                            <center>
+                                <img alt="img" src={MDimg} />
+                            </center>
                             <center>
                                 <p className={classes.name}>Dr. Jay <b>Prakash</b></p>
                                 <p className={classes.post}>Managing Director</p>
                             </center>
                         </td>
                         <td className={classes.imgAdjustL}>
-                            <img alt="img" src={CEOimg} />
+                            <center>
+                                <img alt="img" src={CEOimg} />
+                            </center>
                             <center>
                                 <p className={classes.name}>Dr. P. C <b>Sharma</b></p>
                                 <p className={classes.post}>Cheif Executive Officer</p>
