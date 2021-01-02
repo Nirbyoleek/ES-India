@@ -11,7 +11,7 @@
 .rightSec1 h5 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
 }
 .rightSec1 p {
@@ -21,17 +21,17 @@
 .leftSec2 h5 {
   font-family: "Playfair Display", sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 30px;
   text-align: right;
   margin-right: 3%;
 }
 .leftSec1 img {
-  width: 287px;
-  height: 287px;
+  width: 230px;
+  height: 300px;
 }
 .rightSec2 img {
-  width: 287px;
-  height: 287px;
+  width: 230px;
+  height: 300px;
 }
 .leftSec2 p {
   text-align: right;
