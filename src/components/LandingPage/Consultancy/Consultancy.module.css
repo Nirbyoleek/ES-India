@@ -13,7 +13,14 @@
   }
   .Content {
     margin: 10px 50px;
-  }
+  } /*
+  .Content p {
+    margin-top: -50px;
+    margin-left: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: left;
+  }*/
   .headingStyle {
     font-size: 25px;
     font-weight: 500;

@@ -3,27 +3,30 @@ import Logo from "../../assets/Logo.svg";
 //import Bar from "../../assets/Hamburger-1.png";
 import {Link} from "react-router-dom";
 import classes from "./nav-header.module.css";
-import Menu from './menu';
+
 
 const Header = () => {
     const [isActive, setActive] = useState(false);
 
-const toggleClass = () => {
+
+    const toggleClass = () => {
     setActive(!isActive);
 }
 const [showMenu, setShowMenu] = useState(false);
 
 let menu;
 
+
 if(showMenu){
     menu = <div>
         <div className={classes.menu_div}>
                 <ul>
-                    <li><a style={{textDecoration: "none"}} href="#abt">About Us</a></li>
-                    <li>Specialisations</li>
-                    <li>Works</li>
-                    <li>Our Team</li>
-                    <li>Contact Us</li>
+                    <li><a style={{color: "#444444", textDecoration: "none"}} href="#abt" onClick={() => {setShowMenu(!showMenu); toggleClass();}}>About Us</a></li>
+                    <li><a style={{color: "#444444", textDecoration: "none"}} href="#specs" onClick={() => {setShowMenu(!showMenu); toggleClass();}}>Specialisations</a></li>
+                    <li><a style={{color: "#444444", textDecoration: "none"}} href="#works" onClick={() => {setShowMenu(!showMenu); toggleClass();}}>Works</a></li>
+                    <li><a style={{color: "#444444", textDecoration: "none"}} href="#clients" onClick={() => {setShowMenu(!showMenu); toggleClass();}}>Clients</a></li>
+                    <li><Link style={{color: "#444444"}} to="/ourteam">Our Team</Link></li>
+                    <li><Link style={{color: "#444444"}} to="/contactus">Contact Us</Link></li>
                 </ul>
             </div>
     </div>
@@ -40,7 +43,7 @@ if(showMenu){
                 </div>
                 {/*<img alt="bar"  src={Bar} />*/}
                 <ul>
-                    <li><Link to="/">About us</Link></li>
+                    <li><Link to="#abt">About us</Link></li>
                     <li><Link href="#specs">Specialisations</Link></li>
                     <li><Link href="#">Works</Link></li>
                     <li><Link to="/Ourteam">Our team</Link></li>
