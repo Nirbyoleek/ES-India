@@ -21,9 +21,6 @@ const OurClients = () => {
           <div className={classes.Content}>
             <img className={classes.Image} src={client3} alt="" />
           </div>
-          <div className={classes.Content}>
-            <img className={classes.Image} src={client1} alt="" />
-          </div>
         </div>{" "}
         <div className={classes.Section}>
           <div className={classes.Content}>
@@ -35,9 +32,6 @@ const OurClients = () => {
           <div className={classes.Content}>
             <img className={classes.Image} src={client3} alt="" />
           </div>
-          <div className={classes.Content}>
-            <img className={classes.Image} src={client2} alt="" />
-          </div>
         </div>{" "}
         <div className={classes.Section}>
           <div className={classes.Content}>
@@ -48,9 +42,6 @@ const OurClients = () => {
           </div>{" "}
           <div className={classes.Content}>
             <img className={classes.Image} src={client3} alt="" />
-          </div>
-          <div className={classes.Content}>
-            <img className={classes.Image} src={client1} alt="" />
           </div>{" "}
         </div>
       </div>
