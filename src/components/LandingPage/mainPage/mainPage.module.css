@@ -2,6 +2,9 @@
   font-family: "Poppins";
   scroll-behavior: smooth;
 }
+.majorContainer {
+  overflow-x: hidden;
+}
 h2 {
   font-family: "Playfair Display";
   padding-top: 18px;
