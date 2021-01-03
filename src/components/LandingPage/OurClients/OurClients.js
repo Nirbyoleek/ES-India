@@ -8,7 +8,7 @@ const OurClients = () => {
   return (
     <div>
       <div className={classes.Container}>
-        <div className={classes.Clients}>
+        <div className={classes.Clients} id="clients">
           <h2>Our Clients</h2>
         </div>
         <div className={classes.Section}>
