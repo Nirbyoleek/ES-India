@@ -22,6 +22,7 @@
   width: 90%;
   margin:auto;
   list-style: none;
+  color: #444444;
 }
 
 .menu_div li{
@@ -33,6 +34,16 @@
 }
 .logoContainer.open{
   position: fixed;
+}
+
+a{
+  font-family: 'Playfair Display', serif;
+  text-decoration: inherit;
+  color: #444444;
+}
+
+a:hover{
+  color: #444444;
 }
 
 .logoContainer {

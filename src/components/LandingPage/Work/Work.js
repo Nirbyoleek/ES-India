@@ -6,7 +6,7 @@ import classes from "./Work.module.css";
 const Work = () => {
   return (
     <div className={classes.Container}>
-      <div className={classes.Work}>
+      <div className={classes.Work} id="work">
         <div className={classes.Carousel}>
           <Carousel />
         </div>
