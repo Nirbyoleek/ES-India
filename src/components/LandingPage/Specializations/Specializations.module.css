@@ -13,6 +13,7 @@
   font-weight: 500;
   font-size: 30px;
   text-align: left;
+  margin-top: 70px;
 }
 .rightSec1 p {
   text-align: left;
@@ -23,7 +24,8 @@
   font-weight: 500;
   font-size: 30px;
   text-align: right;
-  margin-right: 3%;
+  margin-right: 2%;
+  margin-top: 80px;
 }
 .leftSec1 img {
   width: 200px;
@@ -35,21 +37,22 @@
 }
 .leftSec2 p {
   text-align: right;
-  margin-right: 3%;
+  margin-right: 2%;
 }
 .Section {
   display: flex;
   flex-direction: row;
   padding: 40px;
   width: 100%;
-  margin: -95px 0px;
+  margin: -95px auto;
   margin-left: 100px;
 }
 .leftSec1 {
-  width: 30%;
+  width: 25%;
 }
 .rightSec1 {
-  width: 60%;
+  width: 70%;
+  margin-right: -20px;
 }
 p {
   margin-top: -7px;
@@ -57,7 +60,7 @@ p {
 }
 .leftSec2 {
   width: 60%;
-  margin-right: -20px;
+  margin-left: -20px;
   margin-top: 10px;
 }
 .rightSec2 {
@@ -102,6 +105,7 @@ p {
     font-size: 1.4em;
     text-align: left;
     margin-left: 40%;
+    margin-top: 0px;
   }
   .rightSec1 p {
     text-align: left;
@@ -114,6 +118,8 @@ p {
     font-size: 1.4em;
     text-align: right;
     margin-right: 15%;
+    margin-top: 0px;
+    text-align: left;
   }
   .leftSec1 img {
     width: 120px;
@@ -126,6 +132,7 @@ p {
   .leftSec2 p {
     text-align: right;
     margin-right: 15%;
+    text-align: left;
   }
   .Section {
     display: flex;

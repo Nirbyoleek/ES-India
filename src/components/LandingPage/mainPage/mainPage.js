@@ -6,6 +6,7 @@ import Consultancy from "../Consultancy/Consultancy";
 import Spec from "../Specializations/Specializations";
 import OurClients from "../OurClients/OurClients";
 import Work from "../Work/Work";
+import Footer from "../../Footer/Footer";
 
 const MainPage = () => {
   return (
@@ -27,6 +28,9 @@ const MainPage = () => {
       </div>
       <div>
         <OurClients />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
