@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./contactUs.module.css";
-import Header from "../nav-header/nav-header";
+import Header from "../nav-header/nav contact";
 
 const contactUs = ()=>{
     return(

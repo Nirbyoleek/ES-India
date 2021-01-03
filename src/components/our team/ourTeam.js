@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./ourTeam.module.css";
-import Header from "../../components/nav-header/nav-header.js";
+import Header from "../../components/nav-header/nav our team";
 import CEOimg from "../../assets/CEOimg.svg"
 import MDimg from "../../assets/MDimg.svg"
 
