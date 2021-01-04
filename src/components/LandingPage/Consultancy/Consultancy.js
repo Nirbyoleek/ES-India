@@ -20,8 +20,6 @@ const Consultancy = () => {
             <img src={build2} alt="" />
             <p>Lorem ipsum dolor sit.</p>
           </div>
-        </div>{" "}
-        <div className={classes.Section}>
           <div className={classes.Content}>
             <img src={build1} alt="" />
             <p>Lorem ipsum dolor sit.</p>
@@ -30,8 +28,6 @@ const Consultancy = () => {
             <img src={build2} alt="" />
             <p>Lorem ipsum dolor sit.</p>
           </div>
-        </div>{" "}
-        <div className={classes.Section}>
           <div className={classes.Content}>
             <img src={build1} alt="" />
             <p>Lorem ipsum dolor sit.</p>
@@ -40,8 +36,6 @@ const Consultancy = () => {
             <img src={build2} alt="" />
             <p>Lorem ipsum dolor sit.</p>
           </div>
-        </div>{" "}
-        <div className={classes.Section}>
           <div className={classes.Content}>
             <img src={build1} alt="" />
             <p>Lorem ipsum dolor sit.</p>
@@ -50,8 +44,6 @@ const Consultancy = () => {
             <img src={build2} alt="" />
             <p>Lorem ipsum dolor sit.</p>
           </div>
-        </div>{" "}
-        <div className={classes.Section}>
           <div className={classes.Content}>
             <img src={build1} alt="" />
             <p>Lorem ipsum dolor sit.</p>
@@ -60,6 +52,7 @@ const Consultancy = () => {
             <img src={build2} alt="" />
             <p>Lorem ipsum dolor sit.</p>
           </div>
+          
         </div>
       </div>
     </div>
