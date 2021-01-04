@@ -36,15 +36,6 @@
   position: fixed;
 }
 
-a{
-  font-family: 'Playfair Display', serif;
-  text-decoration: inherit;
-  color: #444444;
-}
-
-a:hover{
-  color: #444444;
-}
 
 .logoContainer {
   float: left;
@@ -126,6 +117,9 @@ a:hover{
 
 @media screen and (min-width: 850px) {
   .menu_btn{
+    display: none;
+  }
+  .menu_div{
     display: none;
   }
   .mainContainer {
