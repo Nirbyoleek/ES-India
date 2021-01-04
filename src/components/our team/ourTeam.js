@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./ourTeam.module.css";
-import Header from "../../components/nav-header/nav-header.js";
+import Header from "../../components/nav-header/nav our team";
 import CEOimg from "../../assets/CEOimg.svg"
 import MDimg from "../../assets/MDimg.svg"
 
@@ -15,14 +15,18 @@ const ourTeam = ()=>{
                     </tr>
                     <tr>
                         <td className={classes.imgAdjustR}>
-                            <img src={MDimg} />
+                            <center>
+                                <img alt="img" src={MDimg} />
+                            </center>
                             <center>
                                 <p className={classes.name}>Dr. Jay <b>Prakash</b></p>
                                 <p className={classes.post}>Managing Director</p>
                             </center>
                         </td>
                         <td className={classes.imgAdjustL}>
-                            <img src={CEOimg} />
+                            <center>
+                                <img alt="img" src={CEOimg} />
+                            </center>
                             <center>
                                 <p className={classes.name}>Dr. P. C <b>Sharma</b></p>
                                 <p className={classes.post}>Cheif Executive Officer</p>

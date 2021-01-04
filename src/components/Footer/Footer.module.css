@@ -1,0 +1,25 @@
+.Footer {
+  background: #c4c4c4;
+}
+.Content {
+  padding: 25px;
+  background: #c4c4c4;
+}
+
+span {
+  display: inline;
+  margin: 2px;
+  color: #747474;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.Logo {
+  margin-top: 10px;
+  margin-bottom: -30px;
+  width: 100px;
+  height: 100px;
+}
+.Contact {
+  margin: 3px;
+}

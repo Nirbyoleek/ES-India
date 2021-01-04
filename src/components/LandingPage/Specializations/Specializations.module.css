@@ -1,16 +1,145 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  width: 100%;
+}
+.Specialization h2 {
+  font-size: 50px;
+  margin-top: 70px;
+}
+.rightSec1 h5 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 70px;
+}
+.rightSec1 p {
+  text-align: left;
+  font-size: 22px;
+}
+.leftSec2 h5 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 80px;
+}
+.leftSec1 img {
+  width: 200px;
+  height: 300px;
+}
+.rightSec2 img {
+  width: 200px;
+  height: 300px;
+}
+.leftSec2 p {
+  text-align: right;
+  margin-right: 2%;
+}
+.Section {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  width: 100%;
+  margin: -95px auto;
+  margin-left: 100px;
+}
+.leftSec1 {
+  width: 25%;
+}
+.rightSec1 {
+  width: 70%;
+  margin-right: -20px;
+}
+p {
+  margin-top: -7px;
+  color: #747474;
+}
+.leftSec2 {
+  width: 60%;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+.rightSec2 {
+  width: 30%;
+  padding: 2px;
+}
+.headingStyle {
+  font-size: 40px;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 120px;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 80px;
+}
+.headingLine {
+  display: inline-block;
+  flex-grow: 1;
+  height: 4px;
+  background-color: #747474;
+  margin-top: 30px;
+  margin-left: 18px;
+}
+
+/* Mobile */
+
 @media only screen and (max-width: 500px) {
   .Container {
     display: flex;
     flex-direction: column;
     background-color: #e5e5e5;
     padding: 40px 0;
-    padding-left: 25px;
+    padding-left: 15px;
+  }
+  .Specialization h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .rightSec1 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 40%;
+    margin-top: 0px;
+  }
+  .rightSec1 p {
+    text-align: left;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+  .leftSec2 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .leftSec1 img {
+    width: 120px;
+    height: 120px;
+  }
+  .rightSec2 img {
+    width: 120px;
+    height: 120px;
+  }
+  .leftSec2 p {
+    text-align: right;
+    margin-right: 15%;
+    text-align: left;
   }
   .Section {
     display: flex;
     flex-direction: row;
     margin: 20px;
     width: 90%;
+    padding: 0;
   }
   .leftSec1 {
     width: 20%;
@@ -39,6 +168,7 @@
     margin-bottom: 35px;
     margin-top: 50px;
     text-align: left;
+    margin-left: 10px;
   }
   .headingLine {
     display: inline-block;
