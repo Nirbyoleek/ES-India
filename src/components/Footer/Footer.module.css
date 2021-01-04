@@ -2,8 +2,7 @@
   background: #c4c4c4;
 }
 .Content {
-  margin: 10px;
-  padding: 10px;
+  padding: 25px;
   background: #c4c4c4;
 }
 
@@ -18,8 +17,8 @@ span {
 .Logo {
   margin-top: 10px;
   margin-bottom: -30px;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
 }
 .Contact {
   margin: 3px;

@@ -21,9 +21,9 @@ if(showMenu){
     menu = <div>
         <div className={classes.menu_div}>
                 <ul>
-                    <li><Link style={{color: "#444444"}} to="/">Home</Link></li>
-                    <li><Link style={{color: "#444444"}} to="/ourteam">Our Team</Link></li>
-                    <li><Link style={{color: "#444444"}} to="/contactus">Contact Us</Link></li>
+                    <li><Link style={{fontFamily: "Playfair Display",color: "#444444"}} to="/">Home</Link></li>
+                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/ourteam">Our Team</Link></li>
+                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/contactus">Contact Us</Link></li>
                 </ul>
             </div>
     </div>
@@ -39,7 +39,7 @@ if(showMenu){
                     </div>
                 </div>
                 {/*<img alt="bar"  src={Bar} />*/}
-                <ul style={{marginTop: "4%"}}>
+                <ul style={{marginTop: "7%"}}>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Ourteam">Our team</Link></li>
                     <li><Link to="/ContactUs">Contact us</Link></li>
