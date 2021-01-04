@@ -3,6 +3,7 @@ import Logo from "../../assets/Logo.svg";
 //import Bar from "../../assets/Hamburger-1.png";
 import { Link } from "react-router-dom";
 import classes from "./nav-header.module.css";
+import {Fade} from 'react-awesome-reveal';
 
 const Header = () => {
   const [isActive, setActive] = useState(false);
@@ -18,6 +19,7 @@ const Header = () => {
     menu = (
       <div>
         <div className={classes.menu_div}>
+        <Fade direction="right" style={{zIndex: "101"}}>
           <ul>
             <li>
               <a
@@ -100,6 +102,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
+        </Fade>
         </div>
       </div>
     );

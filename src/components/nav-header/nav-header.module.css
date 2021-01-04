@@ -78,23 +78,29 @@
   border-radius: 5px;
   transition: all .5s ease-in-out;
 }
-
+.menu_btn_ham::before{
+  width: 55px;
+}
+.menu_btn_ham::after{
+  width: 25px;
+}
 .menu_btn_ham::before,
 .menu_btn_ham::after{
   content: '';
   position: absolute;
-  width: 40px;
   height: 4px;
   background: #747474;
   border-radius: 5px;
   transition: all .5s ease-in-out;
-  right: 8px;
+  right: 10px;
 }
 .menu_btn_ham::before{
+  
   transform: translateY(-13px);
   transition: all 0.5s ease-in-out;
 }
 .menu_btn_ham::after{
+  
   transition: all 0.5s ease-in-out;
   transform: translateY(13px);
 }
@@ -107,12 +113,14 @@
 .menu_btn.open .menu_btn_ham::before{
   transition: all 0.5s ease-in-out;
   position: fixed;
+  width: 40px;
   transform: rotate(45deg) translate(38px, -38px);
 }
 .menu_btn.open .menu_btn_ham::after{
   transition: all 0.5s ease-in-out;
   transform: rotate(-45deg) translate(38px, 38px);
   position: fixed;
+  width: 40px;
 }
 
 @media screen and (min-width: 850px) {
