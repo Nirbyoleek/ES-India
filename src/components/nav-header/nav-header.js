@@ -130,7 +130,7 @@ const Header = () => {
             <a href="#specs">Specialisations</a>
           </li>
           <li>
-            <a href="#">Works</a>
+            <a href="#works">Works</a>
           </li>
           <li>
             <Link to="/Ourteam">Our team</Link>
