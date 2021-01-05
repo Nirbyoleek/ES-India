@@ -102,6 +102,10 @@
   opacity: 1;
 }
 
+.scrolling{
+  opacity: 1;
+}
+
 @media screen and (min-width: 850px) {
   .introPart1 {
     padding-top: 100px;
@@ -237,6 +241,9 @@
     transition: 0.3s all ease-in-out;
   }
   .TopButton:hover{
+    opacity: 1;
+  }
+  .scrolling{
     opacity: 1;
   }
 }

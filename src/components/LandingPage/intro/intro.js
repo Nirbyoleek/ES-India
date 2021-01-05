@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../../nav-header/nav-header";
 import classes from "./introStyle.module.css";
 import "./intro.css";
@@ -9,6 +9,26 @@ import Carousel from "./carousel";
 import { FiArrowUp } from "react-icons/fi";
 
 const Intro = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [isScrolled, setIsScrolled] = useState(false);
+   const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+    console.log(position);
+    if(scrollPosition < position || scrollPosition > position){
+      setIsScrolled(!isScrolled);
+    }
+    setScrollPosition(0);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className={classes.main} id="home">
       <Header />
@@ -32,7 +52,7 @@ const Intro = () => {
             <a href="#abt" className="button">
               Know More
             </a>
-            <div className={classes.TopButton}>
+            <div className={isScrolled ? classes.TopButton + " " + classes.scrolling : classes.TopButton}>
               <a
                 href="#home"
                 style={{ textDecoration: "none", color: "#747474" }}

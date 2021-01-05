@@ -14,15 +14,15 @@
   text-align: left;
   width: 100%;
   margin: auto;
-  padding-top: 20vh;
+  //padding-top: 20vh;
   height: 100vh;
 }
 .menu_div ul{
   animation: 0.5s ease-in-out;
   width: 90%;
   margin:auto;
+  padding-top: 20vh; 
   list-style: none;
-  color: #444444;
 }
 
 .menu_div li{

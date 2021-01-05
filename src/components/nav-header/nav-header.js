@@ -4,6 +4,7 @@ import Logo from "../../assets/Logo.svg";
 import { Link } from "react-router-dom";
 import classes from "./nav-header.module.css";
 import {Fade} from 'react-awesome-reveal';
+import background from '../../assets/nav menu/background.svg';
 
 const Header = () => {
   const [isActive, setActive] = useState(false);
@@ -19,13 +20,14 @@ const Header = () => {
     menu = (
       <div>
         <div className={classes.menu_div}>
-        <Fade direction="right" style={{zIndex: "101"}}>
+        <Fade direction="right" style={{zIndex: "101"}} duration={1000}>
+          <div style={{backgroundImage: `url(${background})`, height: '100vh'}}>
           <ul>
             <li>
               <a
                 style={{
                   fontFamily: "Playfair Display",
-                  color: "#444444",
+                  color: "#747474",
                   textDecoration: "none",
                 }}
                 href="#abt"
@@ -41,7 +43,7 @@ const Header = () => {
               <a
                 style={{
                   fontFamily: "Playfair Display",
-                  color: "#444444",
+                  color: "#747474",
                   textDecoration: "none",
                 }}
                 href="#specs"
@@ -57,7 +59,7 @@ const Header = () => {
               <a
                 style={{
                   fontFamily: "Playfair Display",
-                  color: "#444444",
+                  color: "#747474",
                   textDecoration: "none",
                 }}
                 href="#works"
@@ -73,7 +75,7 @@ const Header = () => {
               <a
                 style={{
                   fontFamily: "Playfair Display",
-                  color: "#444444",
+                  color: "#747474",
                   textDecoration: "none",
                 }}
                 href="#clients"
@@ -87,7 +89,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                style={{ fontFamily: "Playfair Display", color: "#444444" }}
+                style={{ fontFamily: "Playfair Display", color: "#747474" }}
                 to="/ourteam"
               >
                 Our Team
@@ -95,13 +97,14 @@ const Header = () => {
             </li>
             <li>
               <Link
-                style={{ fontFamily: "Playfair Display", color: "#444444" }}
+                style={{ fontFamily: "Playfair Display", color: "#747474" }}
                 to="/contactus"
               >
                 Contact Us
               </Link>
             </li>
           </ul>
+        </div>
         </Fade>
         </div>
       </div>
