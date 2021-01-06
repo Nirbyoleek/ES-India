@@ -4,7 +4,9 @@
 }
 .majorcontainer {
   min-height: 100vh;
-  background-color: #f2f2f2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .majorcontainer h2 {
   font-weight: 400;

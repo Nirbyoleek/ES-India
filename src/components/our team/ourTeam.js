@@ -4,10 +4,11 @@ import Header from "../../components/nav-header/nav-header.js";
 import CEOimg from "../../assets/CEOimg.svg";
 import MDimg from "../../assets/MDimg.svg";
 import Footer from "../Footer/Footer";
+import background from "../../assets/nav menu/background.svg";
 
 const ourTeam = () => {
   return (
-    <div className={classes.majorcontainer}>
+    <div className={classes.majorcontainer} style={{backgroundImage: `url(${background})` ,}}>
       <Header />
       <center>
         <table className={classes.Members}>
