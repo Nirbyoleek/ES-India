@@ -55,42 +55,62 @@ const ourTeam = () => {
         <div className={classes.otherMembers}>
           <div>
             <p>
-              Lorem <b>Ipsum</b>
+              Dr. Y. P. Gupta
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil), ME (Earthquake), PhD
+            </h5>
           </div>
           <div>
             <p>
-              Insert <b>Names</b>
+              Er. V. P. Bansal
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil), MBA
+            </h5>
           </div>
           <div>
             <p>
-              Lorem <b>Ipsum</b>
+              Er. S. K. Agarwal
             </p>
+            <h5 className={classes.post1}>
+            BE (Civil)
+            </h5>
           </div>
           <div>
             <p>
-              Insert <b>Names</b>
+              Er. H. P. Gupta
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil)  
+            </h5>
           </div>
           <div>
             <p>
-              Lorem <b>Ipsum</b>
+              Dr. R. K. Goel
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil), ME(Structures), PhD
+            </h5>
           </div>
           <div>
             <p>
-              Insert <b>Names</b>
+              Er. Jasvir Singh
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil), ME(Soil)
+            </h5>
           </div>
           <div>
             <p>
-              Lorem <b>Ipsum</b>
+            Er. Vikas C Jaiswal
             </p>
+            <h5 className={classes.post1}>
+              BE (Civil), MBA
+            </h5>
           </div>
-          <div>
+          <div style={{boxShadow: 'none',}}>
             <p>
-              Insert <b>Names</b>
             </p>
           </div>
         </div>
