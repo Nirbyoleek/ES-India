@@ -13,7 +13,7 @@ import classes from "./Work.module.css";
 
 const Work = () => {
   return (
-    <div className={classes.Container}>
+    <div className={classes.Container} id="works">
       <div className={classes.Work}>
         <h5>Works</h5>
         <div className={classes.work_box}>

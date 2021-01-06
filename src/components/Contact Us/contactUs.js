@@ -2,10 +2,11 @@ import React from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Footer/Footer";
+import background from "../../assets/backgroundContactUs.svg";
 
 const contactUs = () => {
   return (
-    <div className={classes.majorContainer}>
+    <div className={classes.majorContainer} style={{backgroundImage: `url(${background})` ,}}>
       <Header />
       <center>
         <div class={classes.formContainer}>
@@ -64,22 +65,6 @@ const contactUs = () => {
               </tr>
             </table>
           </form>
-        </div>
-      </center>
-      <center>
-        <div className={classes.footer}>
-          <p className={classes.left}>
-            We are always available on:
-            <br />
-            solutionbyexpert@gmail.com
-          </p>
-          <p className={classes.right}>
-            You can reach out to CEO:
-            <br />
-            Er. P.C Sharma
-            <br />
-            +91-9810285722
-          </p>
         </div>
       </center>
       <div>
