@@ -14,10 +14,12 @@
   font-size: 30px;
   text-align: left;
   margin-top: 70px;
+  margin-left: 45px;
 }
 .rightSec1 p {
   text-align: left;
   font-size: 22px;
+  margin-left: 45px;
 }
 .leftSec2 h5 {
   font-family: "Playfair Display", sans-serif;
@@ -28,12 +30,14 @@
   margin-top: 80px;
 }
 .leftSec1 img {
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 300px;
+  border-radius: 7px;
 }
 .rightSec2 img {
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
 }
 .leftSec2 p {
   text-align: right;
@@ -44,7 +48,7 @@
   flex-direction: row;
   padding: 40px;
   width: 100%;
-  margin: -95px auto;
+  margin: -75px auto;
   margin-left: 100px;
 }
 .leftSec1 {
