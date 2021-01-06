@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import Logo from "../../assets/Logo.svg";
+import {HiOutlineMail} from 'react-icons/hi';
+
 const Footer = () => {
   return (
     <div>
@@ -13,7 +15,7 @@ const Footer = () => {
           </span>
           <span>2020 ES India Inc.</span>
           <p className={classes.Contact}>
-            <i class="fas fa-envelope-square"></i>:
+            <HiOutlineMail></HiOutlineMail>:
             <span>solutionbyexpert@gmail.com</span>
           </p>
           <p className={classes.Contact}>
