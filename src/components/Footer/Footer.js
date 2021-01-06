@@ -12,8 +12,14 @@ const Footer = () => {
             <i class="far fa-copyright"></i>
           </span>
           <span>2020 ES India Inc.</span>
-          <p className={classes.Contact}>Email: solutionbyexpert@gmail.com</p>
-          <p className={classes.Contact}>Contact Us:+91-9810285722</p>
+          <p className={classes.Contact}>
+            <i class="fas fa-envelope-square"></i>:
+            <span>solutionbyexpert@gmail.com</span>
+          </p>
+          <p className={classes.Contact}>
+            <i class="fas fa-phone-square-alt"></i>
+            <span>:+91-9810285722</span>
+          </p>
         </div>
       </div>
     </div>
