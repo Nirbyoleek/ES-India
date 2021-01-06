@@ -9,6 +9,7 @@ h2 {
 .majorContainer {
   width: 100%;
   min-height: 100vh;
+  padding-top: 70px;
   /*background-color: #f2f2f2;*/
   background-size: cover;
   background-position: center;
