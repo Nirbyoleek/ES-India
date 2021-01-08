@@ -8,14 +8,6 @@ import Urban from "../../../assets/Types of Structures/buildings.jpg";
 import Highway from "../../../assets/Types of Structures/highway.jpg";
 import classes from "./Specializations.module.css";
 
-var names_right = [
-  "Highways",
-  "Water Retaining Structures",
-  "Airports",
-  "Heritage Structures",
-];
-var names_left = ["Buildings", "Urban Infrastructure", "Bridges", "Jetties"];
-
 const Spec = () => {
   return (
     <div>
