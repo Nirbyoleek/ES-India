@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../../nav-header/nav-header";
 import classes from "./introStyle.module.css";
 import "./intro.css";
@@ -6,10 +6,11 @@ import Building from "../../../assets/BuildingForIntro.svg";
 import man from "../../../assets/Image2Intro.svg";
 //import line from "../../../assets/line.svg";
 import Carousel from "./carousel";
+import { FiArrowUp } from "react-icons/fi";
 
 const Intro = () => {
   return (
-    <div className={classes.main}>
+    <div className={classes.main} id="home">
       <Header />
       <div className={classes.introPart1}>
         <div className={classes.HeadingDesign}>
@@ -31,10 +32,18 @@ const Intro = () => {
             <a href="#abt" className="button">
               Know More
             </a>
+            <div className={classes.TopButton}>
+              <a
+                href="#home"
+                style={{ textDecoration: "none", color: "#747474" }}
+              >
+                <FiArrowUp style={{ fontSize: "40px" }}></FiArrowUp>
+              </a>
+            </div>
           </div>
         </div>
         <div className={classes.buildingImageContainer}>
-          <img alt="building_img"  src={Building} />
+          <img alt="building_img" src={Building} />
         </div>
       </div>
       <div className={classes.introPart2}>
@@ -53,7 +62,7 @@ const Intro = () => {
           </p>
         </div>
         <div className={classes.ManImageContainer}>
-          <img style={{"marginTop": "35px"}} alt="building_img" src={man} />
+          <img style={{ marginTop: "35px" }} alt="building_img" src={man} />
           <div></div>
         </div>
       </div>

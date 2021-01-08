@@ -1,5 +1,6 @@
 .introPart1 {
   background-color: #f2f2f2;
+  padding-top: 70px;
 }
 .introPart2 {
   background-color: #f2f2f2;
@@ -86,10 +87,29 @@
   background-color: #444444;
   height: 2px;
 }
+.TopButton {
+  position: fixed;
+  z-index: 100;
+  right: 5%;
+  bottom: 10%;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.3s all ease-in-out;
+}
+.TopButton:hover {
+  opacity: 1;
+}
+
+.scrolling {
+  opacity: 1;
+}
 
 @media screen and (min-width: 850px) {
   .introPart1 {
-    padding-top: 100px;
+    padding-top: calc(100px + 70px);
     height: 580px;
     overflow: hidden;
   }
@@ -208,5 +228,23 @@
   .introLastText div {
     margin-top: 71px;
     margin-right: 11%;
+  }
+  .TopButton {
+    position: fixed;
+    z-index: 106;
+    right: 5%;
+    bottom: 10%;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: 0.3s all ease-in-out;
+  }
+  .TopButton:hover {
+    opacity: 1;
+  }
+  .scrolling {
+    opacity: 1;
   }
 }
