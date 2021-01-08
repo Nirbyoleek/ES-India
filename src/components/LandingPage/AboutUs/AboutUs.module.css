@@ -1,5 +1,8 @@
+@media only screen and (min-width: 501px) {
+
 .AboutUs {
   background-color: #e5e5e5;
+  height: 185vh;
 }
 .Info {
   margin: 50px auto;
@@ -7,8 +10,8 @@
   color: #787878;
   width: 774px;
   height: 288px;
-  font-size: 24px;
-  text-align: left;
+  font-size: 18px;
+  text-align: justify;
   line-height: 42px;
 }
 .AboutUs h2 {
@@ -17,14 +20,18 @@
   font-weight: 400;
 }
 .Image {
-  height: 1000px;
   width: 100%;
-  margin-top: -300px;
-}
+  position: relative;
+  bottom: 650px;
+}}
 
 /* Mobile */
 
 @media only screen and (max-width: 500px) {
+  .AboutUs{
+    background: #e5e5e5;
+    height: 90vh;
+  }
   .AboutUs h2 {
     padding-top: 30px;
     font-size: 26px;
@@ -35,8 +42,8 @@
     padding: 40px;
     width: 430px;
     height: 176px;
-    margin: 5px auto;
-    /* margin-right: -40px; */
+    margin: 10px -10px;
+
     text-align: justify;
     line-height: 29px;
     line-height: 30px;
@@ -47,7 +54,6 @@
     margin: 20px;
   }
   .Image {
-    margin-top: -240px;
     width: 100%;
     margin-bottom: -250px;
   }

@@ -1,16 +1,12 @@
 import React from "react";
-import build1 from "../../../assets/build1.svg";
-import build2 from "../../../assets/build2.svg";
-import build3 from "../../../assets/build3.svg";
+import Heritage from "../../../assets/Types of Structures/heritage.jpg";
+import Airport from "../../../assets/Types of Structures/airport.jpg";
+import Jetty from "../../../assets/Types of Structures/jetty.jpg";
+import Bridge from "../../../assets/Types of Structures/bridge.jpg";
+import Building from "../../../assets/Types of Structures/building.jpg";
+import Urban from "../../../assets/Types of Structures/buildings.jpg";
+import Highway from "../../../assets/Types of Structures/highway.jpg";
 import classes from "./Specializations.module.css";
-
-var names_right = [
-  "Highways",
-  "Water Retaining Structures",
-  "Airports",
-  "Heritage Structures",
-];
-var names_left = ["Buildings", "Urban Infrastructure", "Bridges", "Jetties"];
 
 const Spec = () => {
   return (
@@ -25,7 +21,7 @@ const Spec = () => {
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
-            <img src={build1} alt="" />
+            <img src={Building} alt="" />
           </div>
           <div className={classes.rightSec1}>
             <h5>Buildings</h5>
@@ -38,12 +34,12 @@ const Spec = () => {
             <p>Name</p>
           </div>
           <div className={classes.rightSec2}>
-            <img src={build2} alt="" />
+            <img src={Highway} alt="" />
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
-            <img src={build3} alt="" />
+            <img src={Urban} alt="" />
           </div>
           <div className={classes.rightSec1}>
             <h5>Urban Infrastructure</h5>
@@ -56,12 +52,12 @@ const Spec = () => {
             <p>Name</p>
           </div>
           <div className={classes.rightSec2}>
-            <img src={build1} alt="" />
+            <img src={Bridge} alt="water" />
           </div>
         </div>{" "}
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
-            <img src={build3} alt="" />
+            <img src={Bridge} alt="water" />
           </div>
           <div className={classes.rightSec1}>
             <h5>Bridges</h5>
@@ -74,12 +70,12 @@ const Spec = () => {
             <p>Name</p>
           </div>
           <div className={classes.rightSec2}>
-            <img src={build1} alt="" />
+            <img src={Airport} alt="" />
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
-            <img src={build3} alt="" />
+            <img src={Jetty} alt="" />
           </div>
           <div className={classes.rightSec1}>
             <h5>Jetties</h5>
@@ -92,7 +88,7 @@ const Spec = () => {
             <p>Name</p>
           </div>
           <div className={classes.rightSec2}>
-            <img src={build1} alt="" />
+            <img src={Heritage} alt="" />
           </div>
         </div>
       </div>
