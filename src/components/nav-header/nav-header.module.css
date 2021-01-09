@@ -124,6 +124,11 @@
   position: fixed;
   width: 40px;
 }
+.subtext{
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
 
 @media screen and (min-width: 850px) {
   .menu_btn {
