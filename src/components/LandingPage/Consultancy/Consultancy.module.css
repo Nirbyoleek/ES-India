@@ -1,5 +1,5 @@
 @media only screen and (max-width: 850px) {
-  .Container {
+  .Container1 {
     display: flex;
     flex-direction: column;
     /* margin-top: 80px; */
@@ -41,20 +41,41 @@
     margin-top: 18px;
     margin-right: 20px;
   }
+  .Container1 img{
+    display: none;
+  }
+  .sec1 div:nth-child(2){
+    margin: 0px 20px;
+  }
+  .sec1 div:nth-child(1){
+    display: none;
+  }
+  .sec2 div:nth-child(1){
+    margin: 0px 20px;
+  }
+  .sec2 div:nth-child(2){
+    display: none;
+  }
+  .service1,.service2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
 }
 @media screen and (min-width: 850px) {
-  .Container {
+  .Container1 {
     display: flex;
     flex-direction: column;
     /* margin-top: 80px; */
     background-color: #e5e5e5;
+    padding-bottom:60px;
   }
   .headingStyle {
     font-size: 40px;
     font-weight: 500;
     display: flex;
-    margin-bottom: 35px;
-    margin-top: 40px;
+    margin-bottom: 70px;
+    margin-top: 150px;
     text-align: right;
     margin-right: 10px;
     padding-right: 15px;
@@ -66,15 +87,70 @@
     background-color: #747474;
     margin-top: 28px;
     margin-right: 20px;
+    margin-bottom: 40px;
   }
-  .Section {
+  .sec1{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    margin-top: 70px;
+    margin-bottom: 50px;
   }
-  .Content {
-    margin: 10px 50px;
-    flex: 25%;
-    flex-grow: 1;
+  .sec2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .sec1 img{
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(1);
+    transition: .3s ease-in-out;
+  }
+  .parent{
+    margin: auto 50px;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .sec1 div:nth-child(2){
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .sec2 img{
+    
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(1);
+    transition: .3s ease-in-out;
+  }
+  .sec2 img:hover, .sec1 img:hover{
+    transform: scale(1.03);
+    filter: grayscale(0);
+  }
+  .sec2 div:nth-child(1){
+    width: 50%;
+    margin-left: 95px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center
+  }
+  .service1{
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #444444;
+  }
+  .service2{
+    margin-bottom: 40px;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #444444;
   }
 }
