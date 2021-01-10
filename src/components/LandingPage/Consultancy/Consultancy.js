@@ -23,18 +23,13 @@ const Consultancy = () => {
               </Fade>
             </div>
             <div>
-              <Fade>
               <p className={classes.service1}>Repair, Rehabilitation and Retrofitting</p>
-              </Fade>
-              <Fade>
+              
               <p className={classes.service2}>Seismic Vulnerability Assessment</p>
-              </Fade>
-              <Fade>
+              
               <p className={classes.service1}>Conservation of Heritage Structures</p>
-              </Fade>
-              <Fade>
+              
               <p className={classes.service2}>Sustainable Eco-friendly Design</p>
-              </Fade>
             </div>
         </div>
         <div className={classes.sec2}>
