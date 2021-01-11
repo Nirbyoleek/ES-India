@@ -3,6 +3,8 @@ import Logo from "../../assets/Logo.svg";
 //import Bar from "../../assets/Hamburger-1.png";
 import {Link} from "react-router-dom";
 import classes from "./nav-header.module.css";
+import {Fade} from 'react-awesome-reveal';
+import background from '../../assets/nav menu/background.svg';
 
 
 const Header = () => {
@@ -20,12 +22,17 @@ let menu;
 if(showMenu){
     menu = <div>
         <div className={classes.menu_div}>
+        <Fade direction="right" style={{zIndex: "101"}} duration={1000}>
+          <div style={{backgroundImage: `url(${background})`, height: '100vh'}}>
                 <ul>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/">Home</Link></li>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/ourteam">Our Team</Link></li>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/contactus">Contact Us</Link></li>
                 </ul>
+            <p className={classes.subtext}>Copyright © 2020 Expert AE Solutions</p>
             </div>
+            </Fade>
+    </div>
     </div>
 }
     return(

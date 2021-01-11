@@ -6,6 +6,7 @@ import Bridge from "../../../assets/Types of Structures/bridge.jpg";
 import Building from "../../../assets/Types of Structures/building.jpg";
 import Urban from "../../../assets/Types of Structures/buildings.jpg";
 import Highway from "../../../assets/Types of Structures/highway.jpg";
+import Dam from "../../../assets/Types of Structures/dam.jpg";
 import classes from "./Specializations.module.css";
 
 const Spec = () => {
@@ -25,13 +26,13 @@ const Spec = () => {
           </div>
           <div className={classes.rightSec1}>
             <h5>Buildings</h5>
-            <p>Name</p>
+            <p></p>
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec2}>
             <h5>Highways</h5>
-            <p>Name</p>
+            <p></p>
           </div>
           <div className={classes.rightSec2}>
             <img src={Highway} alt="" />
@@ -43,16 +44,16 @@ const Spec = () => {
           </div>
           <div className={classes.rightSec1}>
             <h5>Urban Infrastructure</h5>
-            <p>Name</p>
+            <p></p>
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec2}>
             <h5>Water Structures</h5>
-            <p>Name</p>
+            <p></p>
           </div>
           <div className={classes.rightSec2}>
-            <img src={Bridge} alt="water" />
+            <img src={Dam} alt="water" />
           </div>
         </div>{" "}
         <div className={classes.Section}>
@@ -61,13 +62,13 @@ const Spec = () => {
           </div>
           <div className={classes.rightSec1}>
             <h5>Bridges</h5>
-            <p>Name</p>
+            <p></p>
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec2}>
             <h5>Airports</h5>
-            <p>Name</p>
+            <p></p>
           </div>
           <div className={classes.rightSec2}>
             <img src={Airport} alt="" />
@@ -79,13 +80,13 @@ const Spec = () => {
           </div>
           <div className={classes.rightSec1}>
             <h5>Jetties</h5>
-            <p>Name</p>
+            <p></p>
           </div>
         </div>
         <div className={classes.Section}>
           <div className={classes.leftSec2}>
             <h5>Heritage Structures</h5>
-            <p>Name</p>
+            <p></p>
           </div>
           <div className={classes.rightSec2}>
             <img src={Heritage} alt="" />
