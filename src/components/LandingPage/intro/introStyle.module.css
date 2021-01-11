@@ -6,6 +6,7 @@
   background-color: #f2f2f2;
   padding-bottom: 150px;
 }
+
 .introPart3 {
   margin-top: -150px;
 }
@@ -60,8 +61,8 @@
   width: 100%;
 }
 .carousel {
-  margin-left: 38px;
-  margin-right: 38px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .introLastText {
   text-align: left;
@@ -105,6 +106,9 @@
 
 .scrolling {
   opacity: 1;
+}
+.w-100 {
+  width: 60%;
 }
 
 @media screen and (min-width: 850px) {
