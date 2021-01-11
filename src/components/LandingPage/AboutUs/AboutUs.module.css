@@ -1,6 +1,17 @@
+@media only screen and (min-width: 501px) {
+.scrollspy{
+  border: 1px solid black;
+  position: fixed;
+  background:purple;
+  bottom: 570px;
+  width: 100px;
+  height: 100px;
+  left: -50px;
+  border-radius: 100px;
+}
 .AboutUs {
   background-color: #e5e5e5;
-  height: 150vh;
+  height: 185vh;
 }
 .Info {
   margin: 50px auto;
@@ -20,12 +31,16 @@
 .Image {
   width: 100%;
   position: relative;
-  bottom: 600px;
-}
+  bottom: 650px;
+}}
 
 /* Mobile */
 
 @media only screen and (max-width: 500px) {
+  .AboutUs{
+    background: #e5e5e5;
+    height: 90vh;
+  }
   .AboutUs h2 {
     padding-top: 30px;
     font-size: 26px;
@@ -48,7 +63,6 @@
     margin: 20px;
   }
   .Image {
-    margin-top: -240px;
     width: 100%;
     margin-bottom: -250px;
   }

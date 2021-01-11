@@ -30,6 +30,8 @@ i {
 .Icons {
   margin-right: 4px;
   width: 20px;
+  position: relative;
+  bottom: 2px;
   height: 20px;
 }
 .Contact2 {
@@ -44,9 +46,6 @@ i {
   margin: 10px;
 }
 .Icons:hover {
-  margin-right: 6px;
-  width: 25px;
-  height: 25px;
   color: rgb(51, 51, 51);
 }
 .Copyright {
@@ -63,7 +62,7 @@ i {
     /* border: 1px solid rgb(10, 10, 10); */
     padding: 15px;
     margin: 20px;
-    margin-bottom: -20px;
+    /* margin-bottom: 20px; */
     text-align: left;
   }
   .Contact1 {
