@@ -24,6 +24,6 @@ const images = [
   },
 ];
 
-const caroursel = () => <UncontrolledCarousel items={images} />;
+const caroursel = () => <UncontrolledCarousel autoPlay={true} interval={5000} items={images} />;
 
 export default caroursel;
