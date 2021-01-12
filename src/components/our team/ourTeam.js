@@ -61,6 +61,9 @@ const ourTeam = () => {
             <h5 className={classes.post1}>
               BE (Civil), ME (Earthquake), PhD
             </h5>
+            <h5 className={classes.post2}>
+            Over 50 years in design, material characterisation, quality control and software development.
+            </h5>
           </div>
           <div>
             <p>
@@ -68,6 +71,9 @@ const ourTeam = () => {
             </p>
             <h5 className={classes.post1}>
               BE (Civil), MBA
+            </h5>
+            <h5 className={classes.post2}>
+            Over 45 years in construction, maintenance and repairs of highways, supervision and quality assurance work.
             </h5>
           </div>
           <div>
@@ -77,6 +83,9 @@ const ourTeam = () => {
             <h5 className={classes.post1}>
             BE (Civil)
             </h5>
+            <h5 className={classes.post2}>
+            Over 45 years in construction, maintenance and repairs of building and highways, contract management.
+            </h5>
           </div>
           <div>
             <p>
@@ -84,6 +93,9 @@ const ourTeam = () => {
             </p>
             <h5 className={classes.post1}>
               BE (Civil)  
+            </h5>
+            <h5 className={classes.post2}>
+            Over 40 years in design of roads, quantity surveying, supervision and quality control of the highways.
             </h5>
           </div>
           <div>
@@ -93,6 +105,9 @@ const ourTeam = () => {
             <h5 className={classes.post1}>
               BE (Civil), ME(Structures), PhD
             </h5>
+            <h5 className={classes.post2}>
+            Over 30 years in design of structures, condition assessment of distressed structures, strengthening of structures and green structures.
+            </h5>
           </div>
           <div>
             <p>
@@ -101,6 +116,9 @@ const ourTeam = () => {
             <h5 className={classes.post1}>
               BE (Civil), ME(Soil)
             </h5>
+            <h5 className={classes.post2}>
+            Over 25 years in soil investigations, surveying, piling and related works.
+            </h5>
           </div>
           <div>
             <p>
@@ -108,6 +126,9 @@ const ourTeam = () => {
             </p>
             <h5 className={classes.post1}>
               BE (Civil), MBA
+            </h5>
+            <h5 className={classes.post2}>
+            Over 28 years in strengthening of structures and green engineering in air, water and energy.
             </h5>
           </div>
           <div style={{boxShadow: 'none',}}>
