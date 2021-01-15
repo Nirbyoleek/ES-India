@@ -6,6 +6,11 @@ import { Media } from "reactstrap";
 const AboutUs = () => {
   return (
     <div className={classes.AboutUs} id="abt">
+       {/*<div className={classes.scrollspy}> 
+        <div>
+          <a href="#abt">click me!</a>
+        </div>
+  </div>*/}
       <center>
         <h2>About Us</h2>
       </center>

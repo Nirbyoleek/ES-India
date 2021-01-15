@@ -22,22 +22,24 @@ const Consultancy = () => {
               <img src={sec1} alt="sec1"></img>
               </Fade>
             </div>
-            <div>
-              <p className={classes.service1}>Repair, Rehabilitation and Retrofitting</p>
+            <Fade direction="right">
+            <div style={{marginRight: "10%"}}>
+              <p className={classes.service2}>Repair, Rehabilitation and Retrofitting</p>
               
               <p className={classes.service2}>Seismic Vulnerability Assessment</p>
               
-              <p className={classes.service1}>Conservation of Heritage Structures</p>
+              <p className={classes.service2}>Conservation of Heritage Structures</p>
               
               <p className={classes.service2}>Sustainable Eco-friendly Design</p>
             </div>
+            </Fade>
         </div>
         <div className={classes.sec2}>
             <div>
               <p className={classes.service1}>Soil Testing and Foundation Design</p>
-              <p className={classes.service2}>Energy Efficient Green Structures</p>
+              <p className={classes.service1}>Energy Efficient Green Structures</p>
               <p className={classes.service1}>Structural Design & Detailing</p>
-              <p className={classes.service2}>Structural Stability Certifications</p>
+              <p className={classes.service1}>Structural Stability Certifications</p>
             </div>
             <div className={classes.parent}>
               <img src={sec2} alt="sec1"></img>
@@ -47,19 +49,19 @@ const Consultancy = () => {
             <div className={classes.parent}>
               <img src={sec3} alt="sec1"></img>
             </div>
-            <div>
-              <p className={classes.service1}>Condition Assessment, Distress Diagnosis & Non-destructive Testing</p>
+            <div style={{marginRight: "10%"}}>
+              <p className={classes.service2}>Condition Assessment, Distress Diagnosis & Non-destructive Testing</p>
               <p className={classes.service2}>Project Management and Specialized Repair</p>
-              <p className={classes.service1}>Third Party Quality Assurance and Auditing</p>
+              <p className={classes.service2}>Third Party Quality Assurance and Auditing</p>
               <p className={classes.service2}>Tapping Solar Energy</p>
             </div>
         </div>
         <div className={classes.sec2}>
             <div>
               <p className={classes.service1}>Training and Knowledge Dissemination</p>
-              <p className={classes.service2}>Health Monitoring</p>
+              <p className={classes.service1}>Health Monitoring</p>
               <p className={classes.service1}>Designing, Planning and Coordinating Architectural Services</p>
-              <p className={classes.service2}>Performance Monitoring through Instrumentation</p>
+              <p className={classes.service1}>Performance Monitoring through Instrumentation</p>
             </div>
             <div className={classes.parent}>
               <img src={sec4} alt="sec1"></img>
