@@ -5,10 +5,14 @@ import CEOimg from "../../assets/CEOimg.svg";
 import MDimg from "../../assets/MDimg.svg";
 import Footer from "../Footer/Footer";
 import background from "../../assets/nav menu/background.svg";
+import { Helmet } from "react-helmet";
 
 const ourTeam = () => {
   return (
     <div className={classes.majorcontainer} style={{backgroundImage: `url(${background})` ,}}>
+      <Helmet>
+        <title>Our Team | Expert AE Solutions</title>
+      </Helmet>
       <Header />
       <center>
         <table className={classes.Members}>
