@@ -3,10 +3,14 @@ import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Footer/Footer";
 import background from "../../assets/backgroundContactUs.svg";
+import { Helmet } from "react-helmet";
 
 const contactUs = () => {
   return (
     <div className={classes.majorContainer} style={{backgroundImage: `url(${background})` ,}}>
+      <Helmet>
+        <title>Contact Us | Expert AE Solutions</title>
+      </Helmet>
       <Header />
       <center>
         <div class={classes.formContainer}>
