@@ -7,10 +7,14 @@ import Spec from "../Specializations/Specializations";
 import OurClients from "../OurClients/OurClients";
 import Work from "../Work/Work";
 import Footer from "../../Footer/Footer";
+import { Helmet } from "react-helmet";
 
 const MainPage = () => {
   return (
     <div className={classes.majorContainer}>
+      <Helmet>
+        <title>ES India | Expert AE Solutions</title>
+      </Helmet>
       <div>
         <Intro />
       </div>
