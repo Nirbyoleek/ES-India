@@ -11,9 +11,11 @@
 }
 .Section {
   display: flex;
-  width: 100%;
+  width: 100%; /*
   margin: auto;
-  margin-left: 45px;
+  margin-left: 45px;*/
+  align-items: center;
+  justify-content: center;
 }
 .Content {
   margin: 50px;
