@@ -223,7 +223,7 @@
     height: 800px;
   }
   .buildingImageContainer {
-    width: 58%;
+    width: 49%;
   }
   .buildingImageContainer img {
     width: 100%;
@@ -252,5 +252,22 @@
   }
   .scrolling {
     opacity: 1;
+  }
+}
+@media screen and (min-width: 1233px) {
+  .buildingImageContainer {
+    width: 58%;
+  }
+  .buildingImageContainer img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .buildingImageContainer {
+    width: 58%;
+    height: 440px;
+  }
+  .buildingImageContainer img {
+    height: 100%;
   }
 }
