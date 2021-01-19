@@ -3,15 +3,26 @@ import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Contact Us/ContactFooter";
 import background from "../../assets/backgroundContactUs.svg";
-import { MdLocationOn } from "react-icons/md";
+import { Helmet } from "react-helmet";
+import { FiArrowUp } from "react-icons/fi";
+import { MdLocationOn } from "react-icons/all";
 
 const contactUs = () => {
   return (
     <div
+      id="top"
       className={classes.majorContainer}
       style={{ backgroundImage: `url(${background})` }}
     >
+      <Helmet>
+        <title>Contact Us | Expert AE Solutions</title>
+      </Helmet>
       <Header />
+      <div className={classes.TopButton}>
+        <a href="#top" style={{ textDecoration: "none", color: "#747474" }}>
+          <FiArrowUp style={{ fontSize: "40px" }}></FiArrowUp>
+        </a>
+      </div>
       <center className={classes.Container}>
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>

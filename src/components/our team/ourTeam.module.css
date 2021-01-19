@@ -72,6 +72,21 @@
 .otherMembers div p b {
   font-family: "playfair display";
 }
+.TopButton {
+  position: fixed;
+  z-index: 100;
+  right: 5%;
+  bottom: 10%;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.3s all ease-in-out;
+}
+.TopButton:hover {
+  opacity: 1;
+}
 
 @media screen and (min-width: 850px) {
   .majorcontainer h2 {

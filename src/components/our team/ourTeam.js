@@ -6,14 +6,23 @@ import MDimg from "../../assets/MDimg.svg";
 import Footer from "../Footer/Footer";
 import background from "../../assets/nav menu/background.svg";
 import { Helmet } from "react-helmet";
+import { FiArrowUp } from "react-icons/fi";
 
 const ourTeam = () => {
   return (
-    <div className={classes.majorcontainer} style={{backgroundImage: `url(${background})` ,}}>
+    <div className={classes.majorcontainer} id="top" style={{backgroundImage: `url(${background})` ,}}>
       <Helmet>
         <title>Our Team | Expert AE Solutions</title>
       </Helmet>
       <Header />
+      <div className={classes.TopButton}>
+        <a
+          href="#top"
+          style={{ textDecoration: "none", color: "#747474" }}
+        >
+          <FiArrowUp style={{ fontSize: "40px" }}></FiArrowUp>
+        </a>
+      </div>
       <center>
         <table className={classes.Members}>
           <tr>

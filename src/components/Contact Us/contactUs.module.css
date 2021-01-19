@@ -20,6 +20,9 @@ h2 {
   width: 50%;
   border: 1px solid black;
 }
+.Container {
+  display: flex;
+}
 .ContactForm {
   width: 90%;
   margin-top: 20px;
@@ -64,28 +67,42 @@ h2 {
 .footer {
   display: none;
 }
-.Container {
-  display: flex;
+.TopButton {
+  position: fixed;
+  z-index: 100;
+  right: 5%;
+  bottom: 10%;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.3s all ease-in-out;
+}
+.TopButton:hover {
+  opacity: 1;
 }
 .AdContainer {
-  margin-top: 100px;
-  margin-right: 100px;
   border: 1px solid black;
-  width: 400px;
-  height: 350px;
-  padding: 10px;
+  padding: 20px;
+  height: 500px;
+  margin-top: 100px;
+  width: 500px;
+  margin-right: 100px;
 }
 .Address {
-  margin: 10px 20px;
-  text-align: left;
-  padding: 15px;
-  color: #747474;
   display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  text-align: left;
+  color: #747474;
 }
 .Icons {
-  margin-right: 5px;
+  margin-right: 8px;
 }
-
 /* MOBILE */
 
 @media screen and (max-width: 500px) {
