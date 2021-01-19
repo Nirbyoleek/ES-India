@@ -1,0 +1,96 @@
+.Footer {
+  background: #c4c4c4;
+  display: flex;
+  width: 100vw;
+}
+
+span {
+  display: inline;
+  margin: 2px;
+  color: #747474;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.Logo {
+  margin-bottom: -30px;
+  width: 130px;
+  height: 130px;
+  margin-top: -30px;
+}
+.Contact1 {
+  margin: 5px 20px;
+  /* border: 1px solid black; */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+i {
+  color: rgb(73, 72, 72);
+}
+.Icons {
+  margin-right: 7px;
+  width: 20px;
+
+  bottom: 2px;
+  height: 20px;
+}
+.Contact2 {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  margin: 0px auto;
+  text-align: left;
+}
+.Content {
+  margin: 10px;
+}
+.Icons:hover {
+  color: rgb(51, 51, 51);
+}
+.Copy {
+  margin: 3px;
+}
+.AdContainer {
+  display: flex;
+  flex-direction: row;
+  color: #747474;
+  margin: 6px auto;
+}
+.Address {
+  display: flex;
+}
+.Copyright2 {
+  margin: 20px;
+  color: #747474;
+}
+.Copyright1 {
+  margin-top: -20px;
+  color: #747474;
+}
+
+/* MOBILE */
+
+.Footer {
+  flex-direction: column-reverse;
+}
+.Contact2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 15px;
+  text-align: left;
+}
+.Contact1 {
+  margin: 5px;
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+.Icons {
+  margin-right: 8px;
+  margin-bottom: -8px;
+}
+.Copyright1 {
+  margin-top: -25px;
+}
