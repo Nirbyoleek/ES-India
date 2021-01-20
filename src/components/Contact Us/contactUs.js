@@ -28,6 +28,7 @@ const contactUs = () => {
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
           <form name="contact" method="POST" netlify>
+          <input type="hidden" name="form-name" value="contact" />
             <table className={classes.ContactForm}>
               <tr>
                 <td>
