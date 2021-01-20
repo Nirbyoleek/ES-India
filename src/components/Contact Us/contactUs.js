@@ -27,7 +27,7 @@ const contactUs = () => {
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
-          <form name="contact" method="POST" netlify>
+          <form name="contact" method="POST" data-netlify="true" netlify>
           <input type="hidden" name="form-name" value="contact" />
             <table className={classes.ContactForm}>
               <tr>
