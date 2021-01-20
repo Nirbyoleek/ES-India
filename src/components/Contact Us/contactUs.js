@@ -27,7 +27,7 @@ const contactUs = () => {
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
-          <form name="contact" action="/ContactUs" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
             <table className={classes.ContactForm}>
               <tr>
                 <td>
@@ -73,7 +73,7 @@ const contactUs = () => {
                 <td>
                   <center>
                     <div>
-                      <input type="submit" className={classes.button} />
+                      <button type="submit" className={classes.button} >Submit</button>
                     </div>
                   </center>
                 </td>
