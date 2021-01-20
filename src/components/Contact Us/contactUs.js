@@ -45,7 +45,7 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Contact #</p>
-                      <input type="text" name="contact #" className={classes.input} />
+                      <input type="text" name="contact#" className={classes.input} />
                     </div>
                   </center>
                 </td>
