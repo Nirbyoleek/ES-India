@@ -1,27 +1,29 @@
 import React from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
-import Footer from "../Footer/Footer";
+import Footer from "../Contact Us/ContactFooter";
 import background from "../../assets/backgroundContactUs.svg";
 import { Helmet } from "react-helmet";
 import { FiArrowUp } from "react-icons/fi";
+import { MdLocationOn } from "react-icons/all";
 
 const contactUs = () => {
   return (
-    <div id="top" className={classes.majorContainer} style={{backgroundImage: `url(${background})` ,}}>
+    <div
+      id="top"
+      className={classes.majorContainer}
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <Helmet>
         <title>Contact Us | Expert AE Solutions</title>
       </Helmet>
       <Header />
       <div className={classes.TopButton}>
-        <a
-          href="#top"
-          style={{ textDecoration: "none", color: "#747474" }}
-        >
+        <a href="#top" style={{ textDecoration: "none", color: "#747474" }}>
           <FiArrowUp style={{ fontSize: "40px" }}></FiArrowUp>
         </a>
       </div>
-      <center>
+      <center className={classes.Container}>
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
@@ -78,6 +80,29 @@ const contactUs = () => {
               </tr>
             </table>
           </form>
+        </div>
+        <div className={classes.AdContainer}>
+          <h2>Our Address</h2>
+          <hr color="black" className={classes.borderBelow} />
+
+          <div className={classes.Address}>
+            <div className={classes.Icons}>
+              <MdLocationOn />
+            </div>
+            <div>
+              Noida Office: BG-06, Parsvnath Prestige Sector-93A, Noida, UP.
+              PIN-201304 India.
+            </div>
+          </div>
+          <div className={classes.Address}>
+            <div className={classes.Icons}>
+              <MdLocationOn />
+            </div>
+            <div>
+              Ghaziabad Office: II-F-163 Nehru Nagar Ghaziabad, UP. PIN-201001
+              India
+            </div>
+          </div>
         </div>
       </center>
       <div>

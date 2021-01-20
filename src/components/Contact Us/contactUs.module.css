@@ -9,19 +9,22 @@ h2 {
 .majorContainer {
   width: 100%;
   min-height: 100vh;
-  padding-top: 70px;
-  /*background-color: #f2f2f2;*/
+  padding-top: 100px;
+  padding-right: 40px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .formContainer {
-  margin: 60px 0px;
-  width: 90%;
+  margin: 50px 150px 50px 180px;
+  width: 50%;
   border: 1px solid black;
 }
+.Container {
+  display: flex;
+}
 .ContactForm {
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 29px;
 }
@@ -79,30 +82,44 @@ h2 {
 .TopButton:hover {
   opacity: 1;
 }
+.AdContainer {
+  border: 1px solid black;
+  padding: 20px;
+  height: 500px;
+  margin-top: 100px;
+  width: 500px;
+  margin-right: 100px;
+}
+.Address {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  text-align: left;
+  color: #747474;
+}
+.Icons {
+  margin-right: 8px;
+}
+/* MOBILE */
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 500px) {
+  center {
+    flex-direction: column;
+  }
   .formContainer {
-    width: 600px;
+    margin: 20px;
+    width: auto;
   }
-  .footer {
-    display: block;
-    height: 90px;
+  .majorContainer {
+    padding: 100px 0px;
+    padding-bottom: 0px;
   }
-  .footer p {
-    margin-bottom: 0px;
-    font-size: 18px;
-    font-weight: 400;
-    color: #444444;
-  }
-  .right {
-    float: right;
-    text-align: right;
-    margin-right: 10px;
-  }
-  .left {
-    float: left;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 10px;
+  .AdContainer {
+    margin: 60px 20px;
+    padding: 20px 5px;
+    width: auto;
   }
 }
