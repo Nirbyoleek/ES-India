@@ -27,14 +27,15 @@ const contactUs = () => {
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
-          <form>
+          <form name="contact" method="POST" data-netlify="true" netlify>
+          <input type="hidden" name="form-name" value="contact" />
             <table className={classes.ContactForm}>
               <tr>
                 <td>
                   <center>
                     <div>
                       <p>Name</p>
-                      <input type="text" className={classes.input} />
+                      <input type="text" name="name" className={classes.input} />
                     </div>
                   </center>
                 </td>
@@ -44,7 +45,7 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Contact #</p>
-                      <input type="text" className={classes.input} />
+                      <input type="text" name="contact#" className={classes.input} />
                     </div>
                   </center>
                 </td>
@@ -54,7 +55,7 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>E-mail</p>
-                      <input type="text" className={classes.input} />
+                      <input type="text" name="E-mail" className={classes.input} />
                     </div>
                   </center>
                 </td>
@@ -64,7 +65,7 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Inquiry</p>
-                      <input type="text" className={classes.input} />
+                      <input type="text" name="Inquiry" className={classes.input} />
                     </div>
                   </center>
                 </td>
@@ -73,7 +74,7 @@ const contactUs = () => {
                 <td>
                   <center>
                     <div>
-                      <input type="submit" className={classes.button} />
+                      <button type="submit" className={classes.button} >Submit</button>
                     </div>
                   </center>
                 </td>
