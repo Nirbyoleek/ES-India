@@ -38,6 +38,61 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <table className={classes.ContactForm}>
+          <tr>
+            <td>
+              <center>
+                <div>
+                  <p>Name</p>
+                  <input type="text" name="name" className={classes.input} />
+                </div>
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <div>
+                  <p>Contact #</p>
+                  <input type="text" name="contact#" className={classes.input} />
+                </div>
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <div>
+                  <p>E-mail</p>
+                  <input type="text" name="E-mail" className={classes.input} />
+                </div>
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <div>
+                  <p>Inquiry</p>
+                  <input type="text" name="Inquiry" className={classes.input} />
+                </div>
+              </center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <center>
+                <div>
+                  <button type="submit" className={classes.button} >Submit</button>
+                </div>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </form>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.

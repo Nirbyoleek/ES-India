@@ -1,6 +1,7 @@
 .Footer {
   background: #c4c4c4;
   display: flex;
+  width: 100vw;
 }
 
 span {
@@ -37,9 +38,8 @@ i {
 .Contact2 {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid rgb(10, 10, 10); */
-  padding: 20px;
-  margin: 20px 200px 5px 150px;
+  /* padding: 20px; */
+  margin: 0px auto;
   text-align: left;
 }
 .Content {
@@ -55,7 +55,7 @@ i {
   display: flex;
   flex-direction: row;
   color: #747474;
-  margin: 6px;
+  margin: 6px auto;
 }
 .Address {
   display: flex;
@@ -71,31 +71,26 @@ i {
 
 /* MOBILE */
 
-@media only screen and (max-width: 500px) {
-  .Footer {
-    flex-direction: column-reverse;
-  }
-  .Contact2 {
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid rgb(10, 10, 10); */
-    padding: 10px;
-    margin: 20px;
-    margin-left: -5px;
-    /* margin-bottom: 20px; */
-    text-align: left;
-  }
-  .Contact1 {
-    margin: 5px;
-    margin-bottom: -30px;
-    text-align: center;
-  }
+.Footer {
+  flex-direction: column-reverse;
+}
+.Contact2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 15px;
+  text-align: left;
+}
+.Contact1 {
+  margin: 5px;
+  margin-bottom: -60px;
+  text-align: center;
+}
 
-  .Icons {
-    margin-right: 8px;
-    margin-bottom: -8px;
-  }
-  .Copyright1 {
-    margin-top: -25px;
-  }
+.Icons {
+  margin-right: 8px;
+  margin-bottom: -8px;
+}
+.Copyright1 {
+  margin-top: -25px;
 }

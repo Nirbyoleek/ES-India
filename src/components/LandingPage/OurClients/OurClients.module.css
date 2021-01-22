@@ -2,16 +2,20 @@
   display: flex;
   flex-direction: column;
   background-color: #e5e5e5;
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 .Clients h2 {
   font-size: 50px;
+  margin-bottom: 50px;
 }
 .Section {
   display: flex;
-  width: 90%;
+  width: 100%; /*
   margin: auto;
-  margin-left: 110px;
+  margin-left: 45px;*/
+  align-items: center;
+  justify-content: center;
 }
 .Content {
   margin: 50px;
@@ -27,11 +31,11 @@
     flex-direction: column;
     background-color: #e5e5e5;
     padding-top: 40px;
-    padding: 20px;
+    padding: 10px;
   }
   .Section {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
   }
   .Content {
@@ -44,5 +48,6 @@
   }
   .Clients h2 {
     font-size: 25px;
+    margin-bottom: 5px;
   }
 }
