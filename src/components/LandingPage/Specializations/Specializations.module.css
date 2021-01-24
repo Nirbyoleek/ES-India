@@ -14,7 +14,9 @@
   font-size: 30px;
   text-align: left;
   margin-top: 70px;
-  margin-left: 45px;
+  margin-left: -3%;
+
+  /* margin-left: 45px; */
 }
 .rightSec1 p {
   text-align: left;
@@ -26,7 +28,7 @@
   font-weight: 500;
   font-size: 30px;
   text-align: right;
-  margin-right: 2%;
+  margin-right: -5%;
   margin-top: 80px;
 }
 .leftSec1 img {
@@ -50,10 +52,10 @@
   margin-left: 100px;
 }
 .leftSec1 {
-  width: 25%;
+  width: 35%;
 }
 .rightSec1 {
-  width: 70%;
+  width: 60%;
   margin-right: -20px;
 }
 p {
@@ -66,7 +68,7 @@ p {
   margin-top: 10px;
 }
 .rightSec2 {
-  width: 30%;
+  width: 40%;
   padding: 2px;
 }
 .headingStyle {
@@ -89,7 +91,7 @@ p {
 
 /* Mobile */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .Container {
     display: flex;
     flex-direction: column;
@@ -162,6 +164,194 @@ p {
   }
   .rightSec2 {
     width: 20%;
+  }
+  .headingStyle {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .headingLine {
+    display: inline-block;
+    flex-grow: 1;
+    height: 4px;
+    background-color: #747474;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+}
+
+/* Tablets size */
+@media only screen and (min-width: 738px) and (max-width: 900px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    padding: 60px 0;
+  }
+  .Specialization h2 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  .rightSec1 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px;
+    text-align: left;
+  }
+  .rightSec1 p {
+    text-align: left;
+    margin-left: 40%;
+    font-size: 18px;
+    text-align: left;
+  }
+  .leftSec2 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 40px;
+    /* text-align: left; */
+  }
+  .leftSec1 img {
+    width: 250px;
+    height: 200px;
+  }
+  .rightSec2 img {
+    width: 250px;
+    height: 200px;
+  }
+  .leftSec2 p {
+    text-align: right;
+    margin-right: 15%;
+    text-align: left;
+  }
+  .Section {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 10px 25px 40px;
+    width: 100%;
+    padding: 0;
+  }
+  .leftSec1 {
+    width: 40%;
+  }
+  .rightSec1 {
+    width: 60%;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  p {
+    margin-top: -7px;
+    color: #747474;
+  }
+  .leftSec2 {
+    width: 50%;
+    margin-right: -20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .rightSec2 {
+    width: 20%;
+  }
+  .headingStyle {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .headingLine {
+    display: inline-block;
+    flex-grow: 1;
+    height: 4px;
+    background-color: #747474;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    padding: 40px 0;
+  }
+  .Specialization h2 {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+  .rightSec1 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  .rightSec1 p {
+    text-align: left;
+    margin-left: 40%;
+    font-size: 15px;
+  }
+  .leftSec2 h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 50px;
+    /* text-align: left; */
+  }
+  .leftSec1 img {
+    width: 350px;
+    height: 250px;
+  }
+  .rightSec2 img {
+    width: 350px;
+    height: 250px;
+  }
+  .leftSec2 p {
+    text-align: right;
+    margin-right: 15%;
+    text-align: left;
+  }
+  .Section {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 10px 25px 40px;
+    width: 100%;
+    padding: 0;
+  }
+  .leftSec1 {
+    width: 40%;
+  }
+  .rightSec1 {
+    width: 60%;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  p {
+    margin-top: -7px;
+    color: #747474;
+  }
+  .leftSec2 {
+    width: 50%;
+    margin-right: -20px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .rightSec2 {
+    width: 40%;
   }
   .headingStyle {
     font-size: 25px;
