@@ -15,11 +15,57 @@
   color: #444444;
 }
 
+.bioCore {
+  position: absolute;
+  left: 50%;
+  margin-left: -45%;
+  top: 50vh;
+  margin-top: -35vh;
+  height: 0vh;
+  width: 90%;
+  transition-duration: 0s;
+  overflow: hidden;
+}
+.bioCore p {
+  position: absolute;
+  background-color: #e2e2e2;
+  text-align: justify;
+  padding: 20px 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #444444;
+  height: 70vh;
+  border-radius: 10px;
+  overflow: auto;
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+.bioCore p::-webkit-scrollbar {
+  background-color: #e4e4e4;
+  width: 5px;
+  display: none;
+}
+.bioCore p::-webkit-scrollbar-thumb {
+  background-color: #747474;
+}
+.closeicon:hover {
+  cursor: pointer;
+  color: #242424;
+  transition-duration: 0.4s;
+}
+
 .Members tr td {
   padding-top: 37px;
 }
 .Members tr td img {
   border-radius: 100%;
+}
+.Members tr td img:hover {
+  cursor: pointer;
+  transition-duration: 0.9s;
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.06);
 }
 .imgAdjustR {
   padding-right: 41px;
