@@ -23,7 +23,7 @@ const Consultancy = () => {
               </Fade>
             </div>
             <Fade direction="right">
-            <div style={{marginRight: "10%"}}>
+            <div style={{}}>
               <p className={classes.service2}>Repair, Rehabilitation and Retrofitting</p>
               
               <p className={classes.service2}>Seismic Vulnerability Assessment</p>

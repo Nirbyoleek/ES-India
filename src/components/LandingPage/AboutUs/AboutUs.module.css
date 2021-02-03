@@ -1,43 +1,44 @@
 @media only screen and (min-width: 501px) {
-.scrollspy{
-  border: 1px solid black;
-  position: fixed;
-  background:purple;
-  bottom: 570px;
-  width: 100px;
-  height: 100px;
-  left: -50px;
-  border-radius: 100px;
+  .scrollspy {
+    border: 1px solid black;
+    position: fixed;
+    background: purple;
+    bottom: 570px;
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    border-radius: 100px;
+  }
+  .AboutUs {
+    background-color: #e5e5e5;
+    height: 185vh;
+  }
+  .Info {
+    margin: 50px auto;
+    margin-bottom: 0px;
+    color: #787878;
+    width: 774px;
+    height: 288px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 42px;
+  }
+  .AboutUs h2 {
+    padding-top: 6%;
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .Image {
+    width: 100%;
+    position: relative;
+    bottom: 650px;
+  }
 }
-.AboutUs {
-  background-color: #e5e5e5;
-  height: 185vh;
-}
-.Info {
-  margin: 50px auto;
-  margin-bottom: 0px;
-  color: #787878;
-  width: 774px;
-  height: 288px;
-  font-size: 18px;
-  text-align: justify;
-  line-height: 42px;
-}
-.AboutUs h2 {
-  padding-top: 6%;
-  font-size: 48px;
-  font-weight: 400;
-}
-.Image {
-  width: 100%;
-  position: relative;
-  bottom: 650px;
-}}
 
 /* Mobile */
 
 @media only screen and (max-width: 500px) {
-  .AboutUs{
+  .AboutUs {
     background: #e5e5e5;
     height: 90vh;
   }
@@ -65,6 +66,76 @@
   .Image {
     width: 100%;
     margin-bottom: -250px;
+  }
+  .Work {
+    margin: 80px;
+    background-color: #fff;
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 738px) and (max-width: 900px) {
+  .AboutUs {
+    background: #e5e5e5;
+    height: 110vh;
+    margin-bottom: 150px;
+  }
+  .AboutUs h2 {
+    padding-top: 30px;
+    font-size: 2em;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  .Info {
+    padding: 40px;
+    width: 700px;
+    height: 176px;
+    margin: 30px 20px;
+    text-align: justify;
+    font-size: 1.6em;
+    color: #747474;
+  }
+  .Carousel {
+    margin: 20px;
+  }
+  .Image {
+    width: 100%;
+    margin-bottom: 250px;
+    position: unset;
+  }
+  .Work {
+    margin: 80px;
+    background-color: #fff;
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+  .AboutUs {
+    background: #e5e5e5;
+    height: 100vh;
+    margin-bottom: 150px;
+  }
+  .AboutUs h2 {
+    padding-top: 30px;
+    font-size: 2.4em;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  .Info {
+    padding: 40px;
+    width: 90%;
+    height: 176px;
+    margin: 30px 40px;
+    text-align: justify;
+    font-size: 2em;
+    color: #747474;
+  }
+  .Carousel {
+    margin: 20px;
+  }
+  .Image {
+    width: 100%;
+    margin-bottom: 250px;
+    position: unset;
   }
   .Work {
     margin: 80px;

@@ -68,7 +68,7 @@ const Intro = () => {
       </div>
       <div className={classes.introPart3}>
         <div className={classes.carousel}>
-          <Carousel style={{ width: "200px" }} />
+          <Carousel className={classes.carousel} />
         </div>
         <div className={classes.introLastText}>
           <p>We Design For You</p>

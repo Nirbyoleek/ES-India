@@ -26,7 +26,7 @@ if(showMenu){
           <div style={{backgroundImage: `url(${background})`, height: '100vh'}}>
                 <ul>
                     <li><Link style={{fontFamily: "Playfair Display",color: "#444444"}} to="/">Home</Link></li>
-                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/ourteam">Our Team</Link></li>
+                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/ourteam" onClick={() => setShowMenu(!showMenu)}>Our Team</Link></li>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/contactus">Contact Us</Link></li>
                 </ul>
                 <p className={classes.subtext}>Copyright © 2020 Expert AE Solutions</p>
