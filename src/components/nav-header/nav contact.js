@@ -27,7 +27,7 @@ if(showMenu){
                 <ul>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/">Home</Link></li>
                     <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/ourteam">Our Team</Link></li>
-                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/contactus">Contact Us</Link></li>
+                    <li><Link style={{color: "#444444",fontFamily: "Playfair Display"}} to="/contactus" onClick={() => setShowMenu(!showMenu)}>Contact Us</Link></li>
                 </ul>
             <p className={classes.subtext}>Copyright © 2020 Expert AE Solutions</p>
             </div>
@@ -35,8 +35,24 @@ if(showMenu){
     </div>
     </div>
 }
+
+
+const [header, setHeader] = useState(false);
+
+
+  window.addEventListener('scroll',
+  (event)=>{
+    console.log()
+    if(window.scrollY >= 10){
+      setHeader(true);
+    }else{
+      setHeader(false);
+    }
+  })
+
+
     return(
-        <div className={classes.mainContainer}>
+        <div className={header ? classes.mainContainerscroll : classes.mainContainer}>
             <div className={classes.logoContainer}>
                 <img alt="logo" src={Logo} className={classes.logo} />
             </div>
