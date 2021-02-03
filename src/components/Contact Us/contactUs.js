@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Contact Us/ContactFooter";
@@ -6,6 +6,8 @@ import background from "../../assets/backgroundContactUs.svg";
 import { Helmet } from "react-helmet";
 import { FiArrowUp } from "react-icons/fi";
 import { MdLocationOn } from "react-icons/all";
+
+
 
 const contactUs = () => {
   return (
