@@ -12,7 +12,7 @@
   z-index: 10;
   top: 0px;
   width: 100%;
-  height: 90px;
+  height: 70px;
   background-size: cover;
   background-color: #f2f2f2;
 }
@@ -149,6 +149,9 @@
     display: none;
   }
   .mainContainer {
+    height: 90px;
+  }
+  .mainContainerscroll {
     height: 90px;
   }
   .logoContainer {

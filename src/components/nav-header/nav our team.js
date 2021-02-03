@@ -42,7 +42,7 @@ const [header, setHeader] = useState(false);
   window.addEventListener('scroll',
   (event)=>{
     console.log()
-    if(window.scrollY >= 100){
+    if(window.scrollY >= 50){
       setHeader(true);
     }else{
       setHeader(false);
