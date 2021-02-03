@@ -35,8 +35,25 @@ if(showMenu){
     </div>
     </div>
 }
+
+const [header, setHeader] = useState(false);
+
+
+  window.addEventListener('scroll',
+  (event)=>{
+    console.log()
+    if(window.scrollY >= 100){
+      setHeader(true);
+    }else{
+      setHeader(false);
+    }
+  })
+
+
+
+
     return(
-        <div className={classes.mainContainer}>
+        <div className={header ? classes.mainContainerscroll : classes.mainContainer}>
             <div className={classes.logoContainer}>
                 <img alt="logo" src={Logo} className={classes.logo} />
             </div>
