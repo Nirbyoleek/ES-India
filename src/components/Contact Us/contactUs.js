@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Contact Us/ContactFooter";
@@ -6,8 +6,6 @@ import background from "../../assets/backgroundContactUs.svg";
 import { Helmet } from "react-helmet";
 import { FiArrowUp } from "react-icons/fi";
 import { MdLocationOn } from "react-icons/all";
-
-
 
 const contactUs = () => {
   return (
@@ -30,14 +28,18 @@ const contactUs = () => {
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
           <form name="contact" method="POST" data-netlify="true" netlify>
-          <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="contact" />
             <table className={classes.ContactForm}>
               <tr>
                 <td>
                   <center>
                     <div>
                       <p>Name</p>
-                      <input type="text" name="name" className={classes.input} />
+                      <input
+                        type="text"
+                        name="name"
+                        className={classes.input}
+                      />
                     </div>
                   </center>
                 </td>
@@ -47,7 +49,11 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Contact #</p>
-                      <input type="text" name="contact#" className={classes.input} />
+                      <input
+                        type="text"
+                        name="contact#"
+                        className={classes.input}
+                      />
                     </div>
                   </center>
                 </td>
@@ -57,7 +63,11 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>E-mail</p>
-                      <input type="text" name="E-mail" className={classes.input} />
+                      <input
+                        type="text"
+                        name="E-mail"
+                        className={classes.input}
+                      />
                     </div>
                   </center>
                 </td>
@@ -67,7 +77,11 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Inquiry</p>
-                      <input type="text" name="Inquiry" className={classes.input} />
+                      <input
+                        type="text"
+                        name="Inquiry"
+                        className={classes.input}
+                      />
                     </div>
                   </center>
                 </td>
@@ -76,7 +90,9 @@ const contactUs = () => {
                 <td>
                   <center>
                     <div>
-                      <button type="submit" className={classes.button} >Submit</button>
+                      <button type="submit" className={classes.button}>
+                        Submit
+                      </button>
                     </div>
                   </center>
                 </td>
