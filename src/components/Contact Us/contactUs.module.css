@@ -123,4 +123,8 @@ h2 {
     padding: 20px 5px;
     width: auto;
   }
+  #val_msg{
+    color: rgb(255, 72, 72);
+    font-size: 0.85em;
+  }
 }
