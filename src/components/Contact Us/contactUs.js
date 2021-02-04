@@ -6,10 +6,26 @@ import background from "../../assets/backgroundContactUs.svg";
 import { Helmet } from "react-helmet";
 import { FiArrowUp } from "react-icons/fi";
 import { MdLocationOn } from "react-icons/all";
+import {useForm} from 'react-hook-form';
+import * as yup from 'yup';
+import { yupResolver } from '@hookform/resolvers/yup';
 
+const schema = yup.object().shape({
+  Name: yup.string().required(),
+  contact_num: yup.string().required().length(10),
+  Email: yup.string().required('pleae enter your email').email(),
+  Inquiry: yup.string().required(),
+});
 
+const ContactUs = () => {
 
-const contactUs = () => {
+  const { register, handleSubmit, errors} = useForm({
+    resolver: yupResolver(schema),
+  });
+
+  const onSubmit = (data) => console.log(data); 
+  console.log(errors)
+
   return (
     <div
       id="top"
@@ -29,7 +45,7 @@ const contactUs = () => {
         <div class={classes.formContainer}>
           <h2>Contact Us</h2>
           <hr color="black" className={classes.borderBelow} />
-          <form name="contact" method="POST" data-netlify="true" netlify>
+          <form onSubmit={handleSubmit(onSubmit)} name="contact" method="POST" data-netlify="true" netlify >
           <input type="hidden" name="form-name" value="contact" />
             <table className={classes.ContactForm}>
               <tr>
@@ -37,7 +53,8 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Name</p>
-                      <input type="text" name="name" className={classes.input} />
+                      <input type="text" name="Name" className={classes.input} ref={register} />
+                      <p id={classes.val_msg}>{errors["Name"]?.message}</p>
                     </div>
                   </center>
                 </td>
@@ -47,7 +64,8 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Contact #</p>
-                      <input type="text" name="contact#" className={classes.input} />
+                      <input type="number" name="contact_num" className={classes.input} ref={register} />
+                      <p id={classes.val_msg}>{errors["contact_num"]?.message}</p>
                     </div>
                   </center>
                 </td>
@@ -57,7 +75,8 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>E-mail</p>
-                      <input type="text" name="E-mail" className={classes.input} />
+                      <input type="text" name="Email" className={classes.input} ref={register}/>
+                      <p id={classes.val_msg}>{errors["Email"]?.message}</p>
                     </div>
                   </center>
                 </td>
@@ -67,7 +86,8 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Inquiry</p>
-                      <input type="text" name="Inquiry" className={classes.input} />
+                      <input type="text" name="Inquiry" className={classes.input} ref={register}/>
+                      <p id={classes.val_msg}>{errors["Inquiry"]?.message}</p>
                     </div>
                   </center>
                 </td>
@@ -115,4 +135,4 @@ const contactUs = () => {
   );
 };
 
-export default contactUs;
+export default ContactUs;
