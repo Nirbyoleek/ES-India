@@ -37,7 +37,7 @@ const contactUs = () => {
                   <center>
                     <div>
                       <p>Name</p>
-                      <input type="text" name="name" className={classes.input} />
+                      <input type="text" name="name" className={classes.input}/>
                     </div>
                   </center>
                 </td>
