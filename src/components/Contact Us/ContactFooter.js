@@ -5,6 +5,8 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/all";
 import { BiCopyright } from "react-icons/bi";
 const Footer = () => {
+  var d = new Date();
+  var n = d.getFullYear();
   return (
     <div>
       <div className={classes.Footer}>
@@ -25,7 +27,7 @@ const Footer = () => {
           <div className={classes.Content}>
             <div className={classes.Copyright1}>
               Copyright
-              <BiCopyright className={classes.Copy} /> 2021
+              <BiCopyright className={classes.Copy} /> {n}
             </div>
             <div className={classes.Copyright2}> Expert AE Solutions</div>
           </div>
