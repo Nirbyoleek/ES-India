@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
 import Footer from "../Contact Us/ContactFooter";
@@ -10,6 +10,8 @@ import {useForm} from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 
+const contactUs = () => {
+=======
 const schema = yup.object().shape({
   Name: yup.string().required(),
   contact_num: yup.string().required().length(10),
@@ -47,14 +49,18 @@ const ContactUs = () => {
           <hr color="black" className={classes.borderBelow} />
           <form onSubmit={handleSubmit(onSubmit)} name="contact" method="POST" data-netlify="true" netlify >
           <input type="hidden" name="form-name" value="contact" />
+
             <table className={classes.ContactForm}>
               <tr>
                 <td>
                   <center>
                     <div>
                       <p>Name</p>
+
+
                       <input type="text" name="Name" className={classes.input} ref={register} />
                       <p id={classes.val_msg}>{errors["Name"]?.message}</p>
+
                     </div>
                   </center>
                 </td>
@@ -64,9 +70,10 @@ const ContactUs = () => {
                   <center>
                     <div>
                       <p>Contact #</p>
+
                       <input type="number" name="contact_num" className={classes.input} ref={register} />
                       <p id={classes.val_msg}>{errors["contact_num"]?.message}</p>
-                    </div>
+                   </div>
                   </center>
                 </td>
               </tr>
@@ -75,8 +82,10 @@ const ContactUs = () => {
                   <center>
                     <div>
                       <p>E-mail</p>
+
                       <input type="text" name="Email" className={classes.input} ref={register}/>
                       <p id={classes.val_msg}>{errors["Email"]?.message}</p>
+
                     </div>
                   </center>
                 </td>
@@ -86,8 +95,10 @@ const ContactUs = () => {
                   <center>
                     <div>
                       <p>Inquiry</p>
+
                       <input type="text" name="Inquiry" className={classes.input} ref={register}/>
                       <p id={classes.val_msg}>{errors["Inquiry"]?.message}</p>
+
                     </div>
                   </center>
                 </td>
@@ -96,7 +107,9 @@ const ContactUs = () => {
                 <td>
                   <center>
                     <div>
-                      <button type="submit" className={classes.button} >Submit</button>
+                      <button type="submit" className={classes.button}>
+                        Submit
+                      </button>
                     </div>
                   </center>
                 </td>
