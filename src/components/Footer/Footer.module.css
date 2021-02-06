@@ -66,7 +66,14 @@ i {
   margin-top: -20px;
   color: #747474;
 }
-
+.Mail {
+  color: #747474;
+  text-decoration: none;
+}
+.Mail:hover {
+  color: #444444;
+  text-decoration: none;
+}
 /* MOBILE */
 
 @media only screen and (max-width: 500px) {
