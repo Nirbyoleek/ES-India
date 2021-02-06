@@ -18,11 +18,11 @@
 .bioCore {
   position: absolute;
   left: 50%;
-  margin-left: -45%;
+  margin-left: -37%;
   top: 50vh;
   margin-top: -35vh;
   height: 0vh;
-  width: 90%;
+  width: 75%;
   transition-duration: 0s;
   overflow: hidden;
 }
@@ -30,21 +30,21 @@
   position: absolute;
   background-color: #e2e2e2;
   text-align: justify;
-  padding: 20px 20px;
-  padding-top: 10px;
-  font-size: 14px;
+  padding: 20px 50px;
+  padding-top: 15px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 45px;
   color: #444444;
   height: 70vh;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: auto;
   opacity: 0;
   transition-duration: 0.4s;
 }
 .bioCore p::-webkit-scrollbar {
   background-color: #e4e4e4;
-  width: 5px;
+  width: 8px;
   display: none;
 }
 .bioCore p::-webkit-scrollbar-thumb {
@@ -171,5 +171,40 @@
   .otherMembers div p {
     font-size: 25px;
     line-height: 70px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .bioCore p {
+    position: absolute;
+    background-color: #e2e2e2;
+    text-align: unset;
+    padding: 20px 30px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
+    color: #444444;
+    height: 70vh;
+    border-radius: 15px;
+    overflow: auto;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  .bioCore {
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top: 50vh;
+    margin-top: -35vh;
+    height: 0vh;
+    width: 75%;
+    transition-duration: 0s;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1030px) {
+  .bioCore p {
+    font-size: 27px;
+    line-height: 55px;
   }
 }
