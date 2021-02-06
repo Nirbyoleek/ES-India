@@ -18,13 +18,13 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img1}></img>
+              <img src={img1} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
             <div>
               <h5 style={{ marginLeft: "25px", marginRight: "none" }}>
-                Assesment and Retroffiting
+                Assessment and Retrofitting
               </h5>
               <div id={classes.line}></div>
             </div>
@@ -33,7 +33,7 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img2}></img>
+              <img src={img2} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
@@ -48,7 +48,7 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img3}></img>
+              <img src={img3} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
@@ -63,7 +63,7 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img4}></img>
+              <img src={img4} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
@@ -78,7 +78,7 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img5}></img>
+              <img src={img5} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
@@ -95,7 +95,7 @@ const Work = () => {
         <div className={classes.work_box}>
           <div>
             <Fade direction={"left"} triggerOnce={true}>
-              <img src={img6}></img>
+              <img src={img6} alt=""></img>
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>

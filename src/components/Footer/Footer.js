@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { IoCall } from "react-icons/all";
 import { MdLocationOn } from "react-icons/md";
 import { BiCopyright } from "react-icons/bi";
+// import { Mailto } from "react-mailto";
 const Footer = () => {
   var d = new Date();
   var n = d.getFullYear();
@@ -14,7 +15,14 @@ const Footer = () => {
         <div className={classes.Contact2}>
           <div className={classes.AdContainer}>
             <MdEmail className={classes.Icons} />
-            <div>solutionbyexpert@gmail.com</div>
+            <div>
+              <a
+                className={classes.Mail}
+                href="mailto:solutionbyexpert@gmail.com"
+              >
+                solutionbyexpert@gmail.com
+              </a>
+            </div>
           </div>
           <div className={classes.AdContainer}>
             <IoCall className={classes.Icons} />
