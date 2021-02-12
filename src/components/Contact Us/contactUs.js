@@ -46,8 +46,9 @@ import { yupResolver } from "@hookform/resolvers/yup";
             <h2>Contact Us</h2>
             <hr color="black" className={classes.borderBelow} />
             <form
-              //onSubmit={handleSubmit(onSubmit)}
+              onSubmit={handleSubmit(onSubmit)}
               name="contact"
+              action="/"
               method="POST"
               data-netlify="true"
               netlify
