@@ -23,7 +23,8 @@ import { yupResolver } from "@hookform/resolvers/yup";
       resolver: yupResolver(schema),
     });
 
-    const onSubmit = (data) => console.log(data);
+    const onSubmit = (data) =>{
+    }
     console.log(errors);
 
     return (
