@@ -23,7 +23,12 @@ import { yupResolver } from "@hookform/resolvers/yup";
       resolver: yupResolver(schema),
     });
 
-    const onSubmit = (data) => console.log(data);
+    const onSubmit = (data) => {
+      console.log(data);
+      //console.log('test')
+      var submitForm = document.getElementById('contact-form');
+      submitForm.submit();
+    } 
     console.log(errors);
 
     return (
@@ -53,10 +58,10 @@ import { yupResolver } from "@hookform/resolvers/yup";
               method="POST"
               data-netlify="true"
               netlify
+              id="contact-form"
             >
               <input type="hidden" name="form-name" value="contact" />
-
-              <table className={classes.ContactForm}>
+            <table className={classes.ContactForm}>
                 <tr>
                   <td>
                     <center>
