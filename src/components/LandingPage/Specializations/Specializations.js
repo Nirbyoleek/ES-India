@@ -14,7 +14,7 @@ const Spec = () => {
     <div>
       <div className={classes.Container}>
         <div className={classes.Specialization} id="specs">
-          <h2>Our Specialisations</h2>
+          <h2>Our Specializations</h2>
         </div>
         <div className={classes.headingStyle}>
           <p>Types Of Structures</p>
