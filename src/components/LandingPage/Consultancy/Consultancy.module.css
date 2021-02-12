@@ -41,25 +41,30 @@
     margin-top: 18px;
     margin-right: 20px;
   }
-  .Container1 img{
+  .Container1 img {
     display: none;
   }
-  .sec1 div:nth-child(2){
+  .sec1 div:nth-child(2) {
     margin: 0px 20px;
   }
-  .sec1 div:nth-child(1){
+  .sec1 div:nth-child(1) {
     display: none;
   }
-  .sec2 div:nth-child(1){
+  .sec2 div:nth-child(1) {
     margin: 0px 20px;
   }
-  .sec2 div:nth-child(2){
+  .sec2 div:nth-child(2) {
     display: none;
   }
-  .service1,.service2{
+  .service1,
+  .service2 {
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     text-align: left;
+  }
+  hr {
+    display: none;
   }
 }
 @media screen and (min-width: 850px) {
@@ -68,7 +73,7 @@
     flex-direction: column;
     /* margin-top: 80px; */
     background-color: #e5e5e5;
-    padding-bottom:60px;
+    padding-bottom: 60px;
   }
   .headingStyle {
     font-size: 40px;
@@ -89,68 +94,73 @@
     margin-right: 20px;
     margin-bottom: 40px;
   }
-  .sec1{
+  .sec1 {
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row;
     margin-top: 70px;
     margin-bottom: 50px;
   }
-  .sec2{
+  .sec2 {
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row;
     margin-top: 70px;
     margin-bottom: 50px;
   }
-  .sec1 img{
+  .sec1 img {
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
-  .parent{
+  .parent {
     margin: auto 50px;
     width: 600px;
     height: 400px;
     overflow: hidden;
   }
-  .sec1 div:nth-child(2){
+  .sec1 div:nth-child(2) {
     width: 50%;
     display: flex;
     flex-flow: column;
     justify-content: center;
   }
-  .sec2 img{
-    
+  .sec2 img {
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
-  .sec2 img:hover, .sec1 img:hover{
+  .sec2 img:hover,
+  .sec1 img:hover {
     transform: scale(1.03);
     filter: grayscale(0);
   }
-  .sec2 div:nth-child(1){
+  .sec2 div:nth-child(1) {
     width: 50%;
     margin-left: 95px;
     display: flex;
     flex-flow: column;
-    justify-content: center
+    justify-content: center;
   }
-  .service1{
+  .service1 {
     text-align: left;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: #444444;
   }
-  .service2{
-    margin-bottom: 40px;
+  .service2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: right;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 24px;
     color: #444444;
   }
+}
+hr {
+  margin: 0;
 }
