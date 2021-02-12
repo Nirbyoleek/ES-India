@@ -111,7 +111,6 @@
   .sec1 img {
     width: 100%;
     overflow: hidden;
-    filter: grayscale(1);
     transition: 0.3s ease-in-out;
   }
   .parent {
@@ -129,13 +128,7 @@
   .sec2 img {
     width: 100%;
     overflow: hidden;
-    filter: grayscale(1);
     transition: 0.3s ease-in-out;
-  }
-  .sec2 img:hover,
-  .sec1 img:hover {
-    transform: scale(1.03);
-    filter: grayscale(0);
   }
   .sec2 div:nth-child(1) {
     width: 50%;

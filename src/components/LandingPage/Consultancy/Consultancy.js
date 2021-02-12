@@ -4,25 +4,19 @@ import sec2 from '../../../assets/consultancy/img1.jpg';
 import sec3 from '../../../assets/consultancy/img2.jpg';
 import sec4 from '../../../assets/consultancy/img3.jpg';
 import classes from "./Consultancy.module.css";
-import {Fade} from 'react-awesome-reveal';
 
 const Consultancy = () => {
   return (
     <div>
       <div className={classes.Container1} id="consultancy">
-        <Fade>
         <div className={classes.headingStyle}>
           <div className={classes.headingLine}></div>
           <p>Areas Of Consultancy</p>
           </div>
-          </Fade>
           <div className={classes.sec1}>
             <div className={classes.parent}>
-              <Fade direction="left" triggerOnce={true}>
               <img src={sec1} alt="sec1"></img>
-              </Fade>
             </div>
-            <Fade direction="right">
             <div style={{}}>
               <p className={classes.service2}>Repair, Rehabilitation and Retrofitting</p>
               <hr/>              
@@ -32,7 +26,6 @@ const Consultancy = () => {
               <hr/>
               <p className={classes.service2}>Sustainable Eco-friendly Design</p>
             </div>
-            </Fade>
         </div>
         <div className={classes.sec2}>
             <div>
