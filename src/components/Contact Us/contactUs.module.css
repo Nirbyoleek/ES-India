@@ -143,11 +143,11 @@ h2 {
     width: auto;
   }
   .majorContainer {
-    padding: 100px 30px;
+    padding: 100px 0px;
     padding-bottom: 0px;
   }
   .AdContainer {
-    margin: 50px 120px;
+    margin: 50px 100px;
     padding: 20px 5px;
     width: auto;
   }
@@ -165,7 +165,7 @@ h2 {
     width: auto;
   }
   .majorContainer {
-    padding: 100px 80px;
+    padding: 100px 0px;
     padding-bottom: 0px;
   }
   .AdContainer {
