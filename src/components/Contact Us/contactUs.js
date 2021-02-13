@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classes from "./contactUs.module.css";
 import Header from "../nav-header/nav contact";
-import Footer from "../Contact Us/ContactFooter";
+import Footer from "../Footer/Footer";
 import background from "../../assets/backgroundContactUs.svg";
 import { Helmet } from "react-helmet";
 import { FiArrowUp } from "react-icons/fi";
@@ -13,7 +13,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 
  const schema = yup.object().shape({
     Name: yup.string().required(),
-    contact_num: yup.string().required().length(10),
+    Number: yup.string().required().length(10),
     Email: yup.string().required("please enter your email").email(),
     Inquiry: yup.string().required(),
   });
@@ -85,12 +85,12 @@ import { yupResolver } from "@hookform/resolvers/yup";
 
                         <input
                           type="number"
-                          name="contact_num"
+                          name="Number"
                           className={classes.input}
                           ref={register}
                         />
                         <p id={classes.val_msg}>
-                          {errors["contact_num"]?.message}
+                          {errors["Number"]?.message}
                         </p>
                       </div>
                     </center>
@@ -169,7 +169,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
           </div>
         </center>
         <div>
-          <Footer />
+          <Footer style={{width: '100%'}} />
         </div>
       </div>
     );
