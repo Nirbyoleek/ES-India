@@ -48,22 +48,6 @@ const Header = () => {
                       color: "#747474",
                       textDecoration: "none",
                     }}
-                    href="#specs"
-                    onClick={() => {
-                      setShowMenu(!showMenu);
-                      toggleClass();
-                    }}
-                  >
-                    Specialisations
-                  </a>
-                </li>
-                <li>
-                  <a
-                    style={{
-                      fontFamily: "Playfair Display",
-                      color: "#747474",
-                      textDecoration: "none",
-                    }}
                     href="#works"
                     onClick={() => {
                       setShowMenu(!showMenu);
@@ -73,6 +57,23 @@ const Header = () => {
                     Works
                   </a>
                 </li>
+                <li>
+                  <a
+                    style={{
+                      fontFamily: "Playfair Display",
+                      color: "#747474",
+                      textDecoration: "none",
+                    }}
+                    href="#specs"
+                    onClick={() => {
+                      setShowMenu(!showMenu);
+                      toggleClass();
+                    }}
+                  >
+                    Specialisations
+                  </a>
+                </li>
+                
                 <li>
                   <a
                     style={{
@@ -107,7 +108,7 @@ const Header = () => {
                 </li>
               </ul>
               <p style={{ textAlign: "center" }}>
-                Copyright © 2020 Expert AE Solutions
+                Copyright © 2021 Expert AE Solutions
               </p>
             </div>
           </Fade>
@@ -152,11 +153,12 @@ const Header = () => {
             <a href="#abt">About us</a>
           </li>
           <li>
-            <a href="#specs">Specializations</a>
-          </li>
-          <li>
             <a href="#works">Works</a>
           </li>
+          <li>
+            <a href="#specs">Specializations</a>
+          </li>
+          
           <li>
             <Link to="/Ourteam">Our team</Link>
           </li>
