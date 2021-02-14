@@ -53,6 +53,8 @@ import { yupResolver } from "@hookform/resolvers/yup";
             <form
               onSubmit={handleSubmit(onSubmit)}
               name="contact"
+              id="esform"
+              action="/"
               method="POST"
               data-netlify="true"
               netlify
