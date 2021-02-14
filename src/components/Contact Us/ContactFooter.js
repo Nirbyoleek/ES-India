@@ -13,7 +13,8 @@ const Footer = () => {
         <div className={classes.Contact2}>
           <div className={classes.AdContainer}>
             <MdEmail className={classes.Icons} />
-            <div>solutionbyexpert@gmail.com</div>
+            
+            <div><a href="mailto:solutionbyexpert@gmail.com">solutionbyexpert@gmail.com</a></div>
           </div>
           <div className={classes.AdContainer}>
             <IoCall className={classes.Icons} />

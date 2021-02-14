@@ -10,7 +10,6 @@ h2 {
   width: 100%;
   min-height: 100vh;
   padding-top: 100px;
-  padding-right: 40px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,6 +108,10 @@ h2 {
 }
 .Icons {
   margin-right: 8px;
+}
+#val_msg {
+  color: rgb(255, 72, 72);
+  font-size: 0.85em;
 }
 /* MOBILE */
 

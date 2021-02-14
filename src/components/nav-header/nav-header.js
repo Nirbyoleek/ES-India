@@ -50,22 +50,6 @@ const Header = () => {
                       color: "#747474",
                       textDecoration: "none",
                     }}
-                    href="#specs"
-                    onClick={() => {
-                      setShowMenu(!showMenu);
-                      toggleClass();
-                    }}
-                  >
-                    Specialisations
-                  </a>
-                </li>
-                <li>
-                  <a
-                    style={{
-                      fontFamily: "Playfair Display",
-                      color: "#747474",
-                      textDecoration: "none",
-                    }}
                     href="#works"
                     onClick={() => {
                       setShowMenu(!showMenu);
@@ -75,6 +59,23 @@ const Header = () => {
                     Works
                   </a>
                 </li>
+                <li>
+                  <a
+                    style={{
+                      fontFamily: "Playfair Display",
+                      color: "#747474",
+                      textDecoration: "none",
+                    }}
+                    href="#specs"
+                    onClick={() => {
+                      setShowMenu(!showMenu);
+                      toggleClass();
+                    }}
+                  >
+                    Specialisations
+                  </a>
+                </li>
+
                 <li>
                   <a
                     style={{
@@ -154,11 +155,12 @@ const Header = () => {
             <a href="#abt">About us</a>
           </li>
           <li>
-            <a href="#specs">Specializations</a>
-          </li>
-          <li>
             <a href="#works">Works</a>
           </li>
+          <li>
+            <a href="#specs">Specializations</a>
+          </li>
+
           <li>
             <Link to="/Ourteam">Our team</Link>
           </li>
