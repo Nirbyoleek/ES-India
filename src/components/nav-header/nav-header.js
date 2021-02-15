@@ -12,6 +12,8 @@ const Header = () => {
   const toggleClass = () => {
     setActive(!isActive);
   };
+  var d = new Date();
+  var n = d.getFullYear();
   const [showMenu, setShowMenu] = useState(false);
 
   let menu;
@@ -73,7 +75,7 @@ const Header = () => {
                     Specialisations
                   </a>
                 </li>
-                
+
                 <li>
                   <a
                     style={{
@@ -108,7 +110,7 @@ const Header = () => {
                 </li>
               </ul>
               <p style={{ textAlign: "center" }}>
-                Copyright © 2021 Expert AE Solutions
+                Copyright © {n} Expert AE Solutions
               </p>
             </div>
           </Fade>
@@ -158,7 +160,7 @@ const Header = () => {
           <li>
             <a href="#specs">Specializations</a>
           </li>
-          
+
           <li>
             <Link to="/Ourteam">Our team</Link>
           </li>
