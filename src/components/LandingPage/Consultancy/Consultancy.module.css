@@ -114,7 +114,7 @@
     transition: 0.3s ease-in-out;
   }
   .parent {
-    margin: auto 50px;
+    margin: 140px 30px 10px 70px;
     width: 600px;
     height: 400px;
     overflow: hidden;
@@ -153,7 +153,29 @@
     font-size: 24px;
     color: #444444;
   }
+  .para {
+    margin: 50px 5%;
+  }
 }
 hr {
   margin: 0;
+}
+
+@media screen and (min-width: 2000px) {
+  .sec1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 8%;
+  }
+  .sec2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 8%;
+  }
 }
