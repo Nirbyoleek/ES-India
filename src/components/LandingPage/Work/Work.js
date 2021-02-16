@@ -12,21 +12,6 @@ import classes from "./Work.module.css";
 import { useState } from "react";
 
 const Work = () => {
-
-  const [dragdown1, setvisibility1] = useState(false);
-  const [dragdown2, setvisibility2] = useState(false);
-  const [dragdown3, setvisibility3] = useState(false);
-  const [dragdown4, setvisibility4] = useState(false);
-  const [dragdown5, setvisibility5] = useState(false);
-  const [dragdown6, setvisibility6] = useState(false);
-
-
-  function dd1d(){
-    console.log("click");
-  }
-
-
-
   return (
     <div className={classes.Container} id="works">
       <div className={classes.Work}>
@@ -45,6 +30,7 @@ const Work = () => {
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD1">
                 <p 
+                  className={classes.knowMore}
                   style={{"paddingLeft":"0px",}}
                   onClick={()=>
                     {
@@ -78,6 +64,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD1").classList.remove(classes.pointContainerC);
@@ -102,6 +89,7 @@ const Work = () => {
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD2">
                 <p 
+                  className={classes.knowMore}
                   style={{"paddingLeft":"0px",}} 
                   onClick={()=>
                     {
@@ -118,6 +106,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD2").classList.remove(classes.pointContainerC);
@@ -142,6 +131,7 @@ const Work = () => {
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD3">
                 <p 
+                  className={classes.knowMore}
                   style={{"paddingLeft":"0px",}} 
                   onClick={()=>
                     {
@@ -161,6 +151,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD3").classList.remove(classes.pointContainerC);
@@ -185,6 +176,7 @@ const Work = () => {
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD4">
                 <p 
+                  className={classes.knowMore}
                   style={{"paddingLeft":"0px",}} 
                   onClick={()=>
                     {
@@ -212,6 +204,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD4").classList.remove(classes.pointContainerC);
@@ -237,7 +230,8 @@ const Work = () => {
               </h5>
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD5">
-                <p 
+                <p
+                  className={classes.knowMore} 
                   style={{"paddingLeft":"0px",}} 
                   onClick={()=>
                     {
@@ -252,6 +246,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD5").classList.remove(classes.pointContainerC);
@@ -275,7 +270,8 @@ const Work = () => {
               </h5>
               <div id={classes.line}></div>
               <div class={classes.pointContainerC} id="DD6">
-                <p 
+                <p
+                  className={classes.knowMore} 
                   style={{"paddingLeft":"0px",}} 
                   onClick={()=>
                     {
@@ -300,6 +296,7 @@ const Work = () => {
                 </ul>
               </div>
               <p 
+                className={classes.knowMore}
                 onClick={()=>
                   {
                     document.getElementById("DD6").classList.remove(classes.pointContainerC);

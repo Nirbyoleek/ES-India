@@ -1,11 +1,11 @@
-p {
+.knowMore {
   text-align: left;
   padding-left: 30px;
   padding-top: 10px;
   font-weight: 400;
   color: #747474d0;
 }
-p:hover {
+.knowMore:hover {
   cursor: pointer;
   color: #747474;
   transition-duration: 0.4s;
@@ -45,6 +45,9 @@ p:hover {
   margin-top: 10px;
 }
 @media only screen and (max-width: 600px) {
+  .knowMore {
+    font-size: 10px;
+  }
   .pointContainerO {
     height: 180px;
     font-size: 11px;
