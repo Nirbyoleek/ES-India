@@ -51,9 +51,45 @@
   .pointContainerO {
     height: 180px;
     font-size: 11px;
+    display: none;
   }
   .pointContainerC {
     font-size: 11px;
+    display: none;
+  }
+  .pointContainerMobO {
+    position: absolute;
+    width: 90%;
+    height: fit-content;
+    background-color: #cfcfcff8;
+    z-index: 1;
+    overflow-y: auto;
+    font-size: 13px;
+    text-align: justify;
+    margin: -1px;
+    margin-left: -45%;
+    padding-right: 10px;
+    padding-left: 18px;
+    border-radius: 8px;
+    opacity: 10;
+    transition-duration: 0.4s;
+  }
+  .pointContainerMobC {
+    position: absolute;
+    width: 90%;
+    height: 0px;
+    background-color: #cfcfcff8;
+    z-index: 1;
+    overflow-y: auto;
+    font-size: 13px;
+    text-align: justify;
+    margin: -1px;
+    margin-left: -45%;
+    padding-right: 10px;
+    padding-left: 18px;
+    border-radius: 8px;
+    opacity: 0;
+    transition-duration: 0.4s;
   }
   .Container {
     background-color: #fff;
@@ -101,6 +137,12 @@
 }
 
 @media only screen and (min-width: 601px) {
+  .pointContainerMobC {
+    display: none;
+  }
+  .pointContainerMobO {
+    display: none;
+  }
   .Container {
     background-color: #fff;
     margin-top: 40px;
