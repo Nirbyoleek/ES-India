@@ -104,6 +104,20 @@ const Work = () => {
                   <li>Retrofitting of building of International Tobacco Company, Ghaziabad</li>
                   <li>Design and execution of Anti-blast walls for American Embassy, New Delhi</li>
                 </ul>
+                <center>
+                  <p 
+                    className={classes.knowMore}
+                    style={{"padding":"5px 20px","fontSize":"13px","borderRadius":"6px","backgroundColor":"#747474","color":"#cfcfcf","width":"fit-content","marginTop":"0px",}}
+                    onClick={()=>
+                      {
+                        document.getElementById("DD1").classList.remove(classes.pointContainerO);
+                        document.getElementById("DD1").classList.add(classes.pointContainerC);
+                        document.getElementById("DDM1").classList.remove(classes.pointContainerMobO);
+                        document.getElementById("DDM1").classList.add(classes.pointContainerMobC);
+                      }}>
+                    close
+                  </p>
+                </center>
               </div>
               <p 
                 className={classes.knowMore}
