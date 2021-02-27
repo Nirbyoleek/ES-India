@@ -53,7 +53,7 @@
   font-size: 11px;
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .knowMore {
     font-size: 10px;
   }
@@ -77,8 +77,8 @@
     text-align: justify;
     margin: -1px;
     margin-left: -45%;
-    padding-right: 10px;
-    padding-left: 18px;
+    padding-right: 5%;
+    padding-left: 5%;
     border-radius: 8px;
     opacity: 10;
     transition-duration: 0.4s;
@@ -145,10 +145,10 @@
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 801px) {
   .pointContainerMobO {
     position: absolute;
-    width: 80%;
+    width: 680px;
     height: fit-content;
     background-color: #cfcfcff8;
     z-index: 1;
@@ -156,9 +156,9 @@
     font-size: 13px;
     text-align: justify;
     margin: -1px;
-    margin-left: -40%;
-    padding-right: 10px;
-    padding-left: 18px;
+    margin-left: -340px;
+    padding-right: 5%;
+    padding-left: 5%;
     border-radius: 8px;
     opacity: 10;
     transition-duration: 0.4s;
