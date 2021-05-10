@@ -1,12 +1,12 @@
 import React from "react";
-import Test from "../../../assets/Test.svg";
+
 import classes from "./AboutUs.module.css";
 import { Media } from "reactstrap";
 
 const AboutUs = () => {
   return (
     <div className={classes.AboutUs} id="abt">
-       {/*<div className={classes.scrollspy}> 
+      {/*<div className={classes.scrollspy}> 
         <div>
           <a href="#abt">click me!</a>
         </div>
@@ -24,8 +24,6 @@ const AboutUs = () => {
         partners. At present, the firm functions with multi-discipline and
         experienced experts, well qualified staff and other professionals.
       </Media>
-
-      <img className={classes.Image} src={Test} alt="" />
     </div>
   );
 };

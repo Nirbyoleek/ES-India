@@ -13,24 +13,16 @@ const Footer = () => {
     <div>
       <div className={classes.Footer}>
         <div className={classes.Contact2}>
-        <a
-                className={classes.Mail}
-                href="mailto:solutionbyexpert@gmail.com"
-              >
-          <div className={classes.AdContainer}>
-            <MdEmail className={classes.Icons} />
-            
-            <div>
-              
-                solutionbyexpert@gmail.com
-              
+          <a className={classes.Mail} href="mailto:solutionbyexpert@gmail.com">
+            <div className={classes.AdContainer}>
+              <MdEmail className={classes.Icons} />
+
+              <div>solutionbyexpert@gmail.com</div>
             </div>
-            
-          </div>
           </a>
           <div className={classes.AdContainer}>
             <IoCall className={classes.Icons} />
-            <div>+91-9810285722</div>
+            <div>+91-9810285722, 9811407026 , 9873661588</div>
           </div>
           <div>
             <div className={classes.AdContainer}>
@@ -66,7 +58,6 @@ const Footer = () => {
               Copyright
               <BiCopyright className={classes.Copy} /> {n}
             </div>
-            <div className={classes.Copyright2}> Expert AE Solutions</div>
           </div>
         </div>
       </div>
