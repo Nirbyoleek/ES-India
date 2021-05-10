@@ -25,10 +25,10 @@ const MainPage = () => {
         <Work />
       </div>
       <div>
-        <Spec />
+        <Consultancy />
       </div>
       <div>
-        <Consultancy />
+        <Spec />
       </div>
       <div>
         <OurClients />

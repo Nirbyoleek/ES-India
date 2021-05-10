@@ -9,6 +9,9 @@ const Consultancy = () => {
   return (
     <div>
       <div className={classes.Container1} id="consultancy">
+        <div className={classes.Specialization} id="specs">
+          <h2>Our Specializations</h2>
+        </div>
         <div className={classes.headingStyle}>
           <div className={classes.headingLine}></div>
           <p>Areas Of Consultancy</p>

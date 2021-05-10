@@ -16,7 +16,7 @@ const Work = () => {
   return (
     <div className={classes.Container} id="works">
       <div className={classes.Work}>
-        <h5>Works</h5>
+        <h5>Works Completed</h5>
         <span className={classes.pointContainerMobC} id="DDM1">
                 <h6 style={{float:'left',margin:'0px',marginTop:'8px',fontFamily:'"Playfair Display"',fontSize:'20px',color: '#242424',}} >
                   Details:
