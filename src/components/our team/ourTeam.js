@@ -64,7 +64,7 @@ const ourTeam = () => {
         </p>
 
         <p id="bioCEO">
-        <b>Cheif Executive Officer</b>
+        <b>Chief Executive Officer</b>
         <BsFillXCircleFill className={classes.closeicon}  style={{ fontSize: "20px",float: "right", }}
           onClick={
             ()=>{
@@ -115,6 +115,27 @@ const ourTeam = () => {
           <tr>
             <td className={classes.imgAdjustR}>
               <center>
+                <img alt="img" id="CEO" src={CEOimg} 
+                    onClick={ 
+                    ()=>{
+                      document.getElementById('bio').style.height="70vh";
+                      document.getElementById('bio').style.transitionDelay="0s";
+                      document.getElementById('bioCEO').style.opacity="1";
+                      document.getElementById('bioCEO').style.zIndex="4";
+                      document.getElementById('bioMD').style.zIndex="1";
+                      } 
+                    }
+                />
+              </center>
+              <center>
+                <p className={classes.name}>
+                  Er. P. C <b>Sharma</b>
+                </p>
+                <p className={classes.post}>Chief Executive Officer</p>
+              </center>
+            </td>
+            <td className={classes.imgAdjustL}>
+              <center>
                 <img alt="img" id="MD" src={MDimg} 
                      onClick={ 
                        ()=>{
@@ -132,27 +153,6 @@ const ourTeam = () => {
                   Dr. Jay <b>Prakash</b>
                 </p>
                 <p className={classes.post}>Managing Director</p>
-              </center>
-            </td>
-            <td className={classes.imgAdjustL}>
-              <center>
-                <img alt="img" id="CEO" src={CEOimg} 
-                    onClick={ 
-                    ()=>{
-                      document.getElementById('bio').style.height="70vh";
-                      document.getElementById('bio').style.transitionDelay="0s";
-                      document.getElementById('bioCEO').style.opacity="1";
-                      document.getElementById('bioCEO').style.zIndex="4";
-                      document.getElementById('bioMD').style.zIndex="1";
-                      } 
-                    }
-                />
-              </center>
-              <center>
-                <p className={classes.name}>
-                  Dr. P. C <b>Sharma</b>
-                </p>
-                <p className={classes.post}>Cheif Executive Officer</p>
               </center>
             </td>
           </tr>

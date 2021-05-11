@@ -179,3 +179,26 @@ hr {
     margin-left: 8%;
   }
 }
+
+.Specialization h2 {
+  font-size: 50px;
+  margin-top: 70px;
+}
+@media only screen and (max-width: 600px) {
+  .Specialization h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 738px) and (max-width: 900px) {
+  .Specialization h2 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+  .Specialization h2 {
+    font-size: 3em;
+    margin-top: 20px;
+  }
+}
