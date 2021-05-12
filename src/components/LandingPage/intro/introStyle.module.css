@@ -1,6 +1,7 @@
 .introPart1 {
   background-color: #f2f2f2;
   padding-top: 70px;
+  padding-bottom: 20px;
 }
 .introPart2 {
   background-color: #f2f2f2;
@@ -116,7 +117,7 @@
 @media screen and (min-width: 850px) {
   .introPart1 {
     padding-top: calc(100px + 70px);
-    height: 580px;
+    height: calc(580px + 20px);
     overflow: hidden;
   }
   .introPart2 {
@@ -218,7 +219,7 @@
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1086px) {
   .introPart2 {
     height: 800px;
   }
@@ -256,7 +257,7 @@
 }
 @media screen and (min-width: 1233px) {
   .buildingImageContainer {
-    width: 58%;
+    width: 55%;
   }
   .buildingImageContainer img {
     width: 100%;

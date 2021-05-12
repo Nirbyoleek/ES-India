@@ -22,13 +22,13 @@ const MainPage = () => {
         <AboutUs />
       </div>
       <div>
-        <Work />
+        <Consultancy />
       </div>
       <div>
         <Spec />
       </div>
       <div>
-        <Consultancy />
+        <Work />
       </div>
       <div>
         <OurClients />

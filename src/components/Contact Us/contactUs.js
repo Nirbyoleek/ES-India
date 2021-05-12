@@ -121,12 +121,12 @@ import { yupResolver } from "@hookform/resolvers/yup";
                       <div>
                         <p>Inquiry</p>
 
-                        <input
-                          type="text"
+                        <textarea
                           name="Inquiry"
                           className={classes.input}
                           ref={register}
-                        />
+                          style={{height:"180px",}}
+                        ></textarea>
                         <p id={classes.val_msg}>{errors["Inquiry"]?.message}</p>
                       </div>
                     </center>
