@@ -5,10 +5,13 @@ import img3 from "../../../assets/Works/img3.jpg";
 import img4 from "../../../assets/Works/img4.jpg";
 import img5 from "../../../assets/Works/img5.jpg";
 import img6 from "../../../assets/Works/img6.jpg";
-
 import { Fade } from "react-awesome-reveal";
 
 import classes from "./Work.module.css";
+
+const content = () => {
+  return( <h1>Assessment and Retrofitting</h1> 
+    )  } 
 
 const Work = () => {
   return (
@@ -22,6 +25,7 @@ const Work = () => {
             </Fade>
           </div>
           <Fade direction={"right"} triggerOnce={true}>
+            
             <div>
               <h5 style={{ marginLeft: "25px", marginRight: "none" }}>
                 Assessment and Retrofitting
