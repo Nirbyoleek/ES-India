@@ -17,8 +17,8 @@ const Consultancy = () => {
           <div className={classes.headingLine}></div>
           <p>Areas Of Consultancy</p>
         </div>
-        <div>
-          <img src={AOCspider}></img>
+        <div className={classes.spiderContainer}>
+          <img id={classes.aocspider} src={AOCspider}></img>
         </div>
         <div className={classes.sec1}>
           <div className={classes.parent}>

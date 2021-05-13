@@ -27,7 +27,6 @@
     font-size: 25px;
     font-weight: 500;
     display: flex;
-    margin-bottom: 35px;
     margin-top: 50px;
     text-align: right;
     margin-right: 10px;
@@ -43,6 +42,10 @@
   }
   .Container1 img {
     display: none;
+  }
+  #aocspider{
+    display: block;
+    width: 100vw;
   }
   .sec1 div:nth-child(2) {
     margin: 0px 20px;
@@ -92,13 +95,11 @@
     background-color: #747474;
     margin-top: 28px;
     margin-right: 20px;
-    margin-bottom: 40px;
   }
   .sec1 {
     display: flex;
     flex-wrap: nowrap;
     flex-flow: row;
-    margin-top: 70px;
     margin-bottom: 50px;
   }
   .sec2 {
