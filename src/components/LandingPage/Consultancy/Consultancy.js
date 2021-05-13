@@ -13,12 +13,12 @@ const Consultancy = () => {
         <div className={classes.Specialization} id="specs">
           <h2>Our Specializations</h2>
         </div>
+        <div className={classes.spiderContainer}>
+          <img id={classes.aocspider} src={AOCspider}></img>
+        </div>
         <div className={classes.headingStyle}>
           <div className={classes.headingLine}></div>
           <p>Areas Of Consultancy</p>
-        </div>
-        <div className={classes.spiderContainer}>
-          <img id={classes.aocspider} src={AOCspider}></img>
         </div>
         <div className={classes.sec1}>
           <div className={classes.parent}>
