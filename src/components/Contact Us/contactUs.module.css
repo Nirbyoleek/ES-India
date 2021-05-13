@@ -6,6 +6,8 @@ h2 {
 .borderBelow {
   margin: 0em;
 }
+.mapouter{position:relative;text-align:right;height:500px;width:400px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:400px;}
 .majorContainer {
   width: 100%;
   min-height: 100vh;
@@ -139,6 +141,8 @@ input[type="number"] {
     color: rgb(255, 72, 72);
     font-size: 0.85em;
   }
+  .mapouter{position:relative;text-align:right;height:500px;width:85vw;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:85vw;}
 }
 @media screen and (min-width: 700px) and (max-width: 1020px) {
   center {
@@ -148,6 +152,8 @@ input[type="number"] {
     margin: 80px;
     width: auto;
   }
+  .mapouter{position:relative;text-align:right;height:500px;width:85vw;}
+  .gmap_canvas {overflow:hidden;background:none!important;height:500px;width:85vw;}
   .majorContainer {
     padding: 100px 0px;
     padding-bottom: 0px;

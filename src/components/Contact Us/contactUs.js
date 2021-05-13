@@ -147,25 +147,12 @@ import { yupResolver } from "@hookform/resolvers/yup";
             </form>
           </div>
           <div className={classes.AdContainer}>
-            <h2>Our Address</h2>
-            <hr color="black" className={classes.borderBelow} />
-
-            <div className={classes.Address}>
-              <div className={classes.Icons}>
-                <MdLocationOn />
-              </div>
-              <div>
-                Noida Office: BG-06, Parsvnath Prestige Sector-93A, Noida, UP.
-                PIN-201304 India.
-              </div>
-            </div>
-            <div className={classes.Address}>
-              <div className={classes.Icons}>
-                <MdLocationOn />
-              </div>
-              <div>
-                Ghaziabad Office: II-F-163 Nehru Nagar Ghaziabad, UP. PIN-201001
-                India
+            <div className={classes.mapouter}>
+              <div className={classes.gmap_canvas}>
+                <iframe width="400" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=Expert%20AE%20Solutions&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://123movies-a.com"></a>
+                <br/>
+                <a href="https://www.embedgooglemap.net"></a>
               </div>
             </div>
           </div>
