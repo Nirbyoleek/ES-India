@@ -50,12 +50,11 @@
   opacity: 0;
   transition-duration: 0.4s;
 }
-.bioCore p::-webkit-scrollbar {
+::-webkit-scrollbar {
   background-color: #e4e4e4;
   width: 8px;
-  display: none;
 }
-.bioCore p::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #747474;
 }
 .closeicon:hover {
