@@ -15,6 +15,17 @@ import Iti from "../../../assets/Clients/ITI.png";
 import Pwd from "../../../assets/Clients/PWD.png";
 import Ryan from "../../../assets/Clients/RYAN.jpg";
 import Survey from "../../../assets/Clients/Survey.jpg";
+import ASHOK from "../../../assets/Clients/ASHOK.png";
+import BIET from "../../../assets/Clients/BIET.png";
+import BM from "../../../assets/Clients/BM.png";
+import ELEC from "../../../assets/Clients/ELEC.jpg";
+import GB from "../../../assets/Clients/GB.jpg";
+import Khurja from "../../../assets/Clients/Khurja.png";
+import KK from "../../../assets/Clients/KK.png";
+import MOTILAL from "../../../assets/Clients/MOTILAL.png";
+import PEDVAK from "../../../assets/Clients/PEDVAK.jpg";
+import UPJAL from "../../../assets/Clients/UPJAL.jpg";
+import UPRAJ from "../../../assets/Clients/UPRAJ.jpg";
 
 const OurClients = () => {
   return (
@@ -33,10 +44,16 @@ const OurClients = () => {
           <div className={classes.Content}>
             <img className={classes.Image} src={GPI} alt="" />
           </div>
+          <div className={classes.Content}>
+            <img className={classes.Image} src={ASHOK} alt="" />
+          </div>
         </div>{" "}
         <div className={classes.Section}>
           <div className={classes.Content}>
             <img className={classes.Image} src={Iti} alt="" />
+          </div>
+          <div className={classes.Content}>
+            <img className={classes.Image} src={BIET} alt="" />
           </div>{" "}
           <div className={classes.Content}>
             <img className={classes.Image} src={Iffco} alt="" />
@@ -50,6 +67,9 @@ const OurClients = () => {
             <img className={classes.Image} src={Pwd} alt="" />
           </div>{" "}
           <div className={classes.Content}>
+            <img className={classes.Image} src={BM} alt="" />
+          </div>
+          <div className={classes.Content}>
             <img className={classes.Image} src={Indus} alt="" />
           </div>{" "}
           <div className={classes.Content}>
@@ -60,6 +80,9 @@ const OurClients = () => {
           <div className={classes.Content}>
             <img className={classes.Image} src={USA} alt="" />
           </div>{" "}
+          <div className={classes.Content}>
+            <img className={classes.Image} src={MOTILAL} alt="" />
+          </div>
           <div className={classes.Content}>
             <img className={classes.Image} src={QDA} alt="" />
           </div>{" "}
@@ -72,10 +95,27 @@ const OurClients = () => {
             <img className={classes.Image} src={Client2} alt="" />
           </div>{" "}
           <div className={classes.Content}>
+            <img className={classes.Image} src={ELEC} alt="" />
+          </div>
+          <div className={classes.Content}>
             <img className={classes.Image} src={BANK} alt="" />
           </div>{" "}
           <div className={classes.Content}>
             <img className={classes.Image} src={MNNIT} alt="" />
+          </div>{" "}
+        </div>
+        <div className={classes.Section}>
+          <div className={classes.Content}>
+            <img className={classes.Image} src={PEDVAK} alt="" />
+          </div>{" "}
+          <div className={classes.Content}>
+            <img className={classes.Image} src={UPRAJ} alt="" />
+          </div>
+          <div className={classes.Content}>
+            <img className={classes.Image} src={UPJAL} alt="" />
+          </div>{" "}
+          <div className={classes.Content}>
+            <img className={classes.Image} src={GB} alt="" />
           </div>{" "}
         </div>
       </div>

@@ -4,6 +4,7 @@
   background-color: #e5e5e5;
   padding-top: 50px;
   padding-bottom: 40px;
+  justify-content: space-between;
 }
 .Clients h2 {
   font-size: 50px;
@@ -19,11 +20,21 @@
 }
 .Content {
   margin: 50px;
-  width: 25%;
+  width: 15%;
 }
 .Image {
   width: 120px;
   height: 120px;
+}
+@media only screen and (max-width: 1300px) {
+  .Content {
+    margin: 5vw 3vw;
+    width: 22%;
+  }
+  .Clients h2 {
+    font-size: 6vh;
+    margin-bottom: 6vh;
+  }
 }
 @media only screen and (max-width: 500px) {
   .Container {
@@ -39,15 +50,15 @@
     margin: 10px auto;
   }
   .Content {
-    margin: 30px;
+    margin: 5vw 3vw;
     width: 22%;
   }
   .Image {
-    width: 60px;
-    height: 60px;
+    width: 15vw;
+    height: 10vh;
   }
   .Clients h2 {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 7vh;
+    margin-bottom: 6vh;
   }
 }
