@@ -5,6 +5,10 @@
   font-weight: 400;
   color: #747474d0;
 }
+#Head {
+  margin: 3rem;
+  margin-left: -30vw;
+}
 .knowMore:hover {
   cursor: pointer;
   color: #747474;

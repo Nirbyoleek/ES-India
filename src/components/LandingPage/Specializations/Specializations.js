@@ -17,6 +17,10 @@ const Spec = () => {
           <p>Types Of Structures</p>
           <div className={classes.headingLine}></div>
         </div>
+        <p id={classes.Head}>
+          The firm offers services to all types of structures including the
+          following:
+        </p>
         <div className={classes.Section}>
           <div className={classes.leftSec1}>
             <img src={Building} alt="" />
